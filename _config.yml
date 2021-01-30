@@ -1,10 +1,23 @@
 title: ASHAAB RIZVI
-logo: "/images/logo.png?raw=true" # your photo (or logo) here
+logo: "/https://ashaabrizvi.github.io/images/logo.png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   First description 
   <br><br>
   Second description 
   <br><br>
   <a href="https://www.linkedin.com/in/ashaabrizvi/">View My LinkedIn Profile</a>
-
+  
+social:
+  - title: email
+    url: mailto:brittany.chiang@gmail.com
+  - title: twitter
+    url: https://twitter.com/bchiang7
+  - title: instagram
+    url: https://instagram.com/bchiang7
+  - title: codepen
+    url: http://codepen.io/bchiang7
+  - title: github
+    url: https://github.com/bchiang7
+  - title: linkedin
+    url: https://www.linkedin.com/in/bchiang7
 theme: jekyll-theme-dinky
