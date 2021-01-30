@@ -3,22 +3,21 @@ logo: https://ashaabrizvi.github.io/images/logo.png # your photo (or logo) here
 description: Data Geek
 
 author:
-  name   : "First Lastname"
-  avatar : "/assets/images/bio-photo.jpg"
+  name   : "Ashaab"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://ashaabrizvi.github.io"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/ashaabrizvi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/ashaabrizvi"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://instagram.com/ashaabrizvi"
 
 
 
