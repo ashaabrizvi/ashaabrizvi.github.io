@@ -1,6 +1,6 @@
 ## Portfolio
 
-Ashaab Rizvi
+
 ---
 
 ### Category Name 1 
