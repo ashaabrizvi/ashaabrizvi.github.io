@@ -1,11 +1,27 @@
 title: ASHAAB RIZVI
 logo: https://ashaabrizvi.github.io/images/logo.png # your photo (or logo) here
 description: Data Geek
-social:
-  - title: email
-    url: mailto:ashaabrizvi09@gmail.com
-  - title: github
-    url: https://github.com/ashaabrizvi
-  - title: linkedin
-    url: https://www.linkedin.com/in/ashaabrizvi
+
+author:
+  name   : "First Lastname"
+  avatar : "/assets/images/bio-photo.jpg"
+  bio    : "My awesome biography constrained to a sentence or two goes here."
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/"
+
+
+
+
+
 theme: jekyll-theme-minimal
