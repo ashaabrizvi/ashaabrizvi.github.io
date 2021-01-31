@@ -21,20 +21,20 @@ I am a final year engineering student with an earnest passion in learning and wo
 - **Machine Learning Developer Intern** - **[Technocolabs](https://technocolabs.tech/)**:  
 *(09/2020-10/2020)*
 
-Worked on a Machine Learning project for the company on various domain of tasks such as Classification of models, Image Processing, Neural Network technique like CNN Layer, Model Training, and Deployment. 
+ - Worked on a Machine Learning project for the company on various domain of tasks such as Classification of models, Image Processing, Neural Network technique like CNN       Layer, Model Training, and Deployment. 
 
-Deployed the model in the form of a Web App using Streamlit on AWS EC2 and Heroku.
+ - Deployed the model in the form of a Web App using Streamlit on AWS EC2 and Heroku.
 
-**[Letter of Recommedation](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)** by the CEO.
+ - **[Letter of Recommedation](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)** by the CEO.
 
-- **Data Analytics Intern** - **[Widhya](https://widhya.org/)**: 
+ - **Data Analytics Intern** - **[Widhya](https://widhya.org/)**: 
 *(10/2020-11/2020)
 
-It was India's first Gamified Analytics Internship in which one was intended to solve daily IPL quiz questions based on the analysis.
+ - It was India's first Gamified Analytics Internship in which one was intended to solve daily IPL quiz questions based on the analysis.
 
-Strengthened skills in Data Manipulation, Cleaning, and Visualization by consistently performing analysis of the questions for the month.
+ - Strengthened skills in Data Manipulation, Cleaning, and Visualization by consistently performing analysis of the questions for the month.
 
-Finished at **[25th Rank](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)** out of 1858 registered interns.
+ - Finished at **[25th Rank](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)** out of 1858 registered interns.
 
 
 # Education
