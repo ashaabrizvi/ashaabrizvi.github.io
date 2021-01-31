@@ -4,8 +4,8 @@ layout: single
 author_profile: true
 classes: wide
 toc: true
-toc_label: "My Table of Contents"
-toc_icon: "cog"
+toc_label: "Table of Contents"
+
 header: 
 
 ---
