@@ -215,6 +215,7 @@ plugins:
   - jekyll-menus
   - jekyll-coffeescript
   - jekyll-assets
+  - jekyll-seo-tag
   - another-jekyll-plugin
 
 # mimic GitHub Pages with --safe
@@ -227,6 +228,7 @@ whitelist:
   - jekyll-menus
   - jekyll-coffeescript
   - jekyll-assets
+  - jekyll-seo-tag
   - another-jekyll-plugin
 
 
