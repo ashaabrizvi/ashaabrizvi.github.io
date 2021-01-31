@@ -25,7 +25,7 @@ I am a final year engineering student with an earnest passion in learning and wo
 
  - Deployed the model in the form of a Web App using Streamlit on AWS EC2 and Heroku.
 
- - **[Letter of Recommedation](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)** by the CEO.
+ - **[Letter of Recommendation](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)** by the CEO.
 
  **Data Analytics Intern** - **[Widhya](https://widhya.org/)**:
 *(10/2020-11/2020)*
