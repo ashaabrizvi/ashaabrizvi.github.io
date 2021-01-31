@@ -42,8 +42,13 @@ I am a final year engineering student with an earnest passion in learning and wo
 **B.Tech-Mechatronics**: Delhi Institute of Tool Engineering affiliated to GGSIPU, Delhi.
 *(2017-2021)*
 
+# Skills
 
-- 
+**Programming Language**: Python
+**Query Language** : SQL, No SQL
+**LIBRARIES PROFICIENT** : • Numpy • Pandas • Matplotlib • Streamlit • Scikit Learn • Plotly • Pyspark • Folium • TensorFlow
+**Tools** : • Excel • Tableau • Apache Spark • Hadoop
+
 
 
 ---
