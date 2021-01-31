@@ -12,5 +12,7 @@ main:
     url: /page-archive/
   - title: "Collections"
     url: /collection-archive/
-  - title: "External Link"
-    url: https://google.com
+  - title: "LinkedIn"
+    url: https://linkedin.com/in/ashaabrizvi/
+  - title: "Kaggle Projects"
+    url: https://kaggle.com/ashaabrizvi/code
