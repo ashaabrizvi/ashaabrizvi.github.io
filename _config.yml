@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "contrast"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Portfolio"
 title_separator          : "|"
 subtitle                 :  # site tagline that appears below site title in masthead
-name                     : "Home"
+name                     : "Portfolio"
 description              : # "A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. Passionate Data Geek with the will and desire to excel, curiosity to learn,and make the most of the opportunities that come my way."
 url                      : "https://ashaabrizvi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -92,9 +92,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "ASHAAB RIZVI"
+  name             : "Ashaab Rizvi"
   avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
+  bio              :  Data Geek     #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
   location         : # location
   email            : # mail
   links:
