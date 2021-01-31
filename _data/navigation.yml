@@ -1,7 +1,5 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: /docs/quick-start-guide/
   - title: "Posts"
     url: /year-archive/
   - title: "Categories"
@@ -12,7 +10,5 @@ main:
     url: /page-archive/
   - title: "Collections"
     url: /collection-archive/
-  - title: "LinkedIn"
-    url: https://linkedin.com/in/ashaabrizvi/
-  - title: "Kaggle Projects"
-    url: https://kaggle.com/ashaabrizvi/code
+  - title: "Reading List"
+    url: /readinglist/
