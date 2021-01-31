@@ -11,7 +11,7 @@ header:
 
 # About me
 
-A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. My dayjob is to make sense out of data. I am an Analytics professional, well versed in Machine Learning, Data Science, and Applied Statistics.
+A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. 
 
 ---
 
