@@ -18,7 +18,8 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 # Work Experience
 
-- **Machine Learning Developer Intern** - **Technocolabs**(09/2020-10/2020):  
+- **Machine Learning Developer Intern** -  **[Technocolabs](https://technocolabs.tech/)**.:  
+*(09/2020-10/2020)*
 • Analyzed Default of Credit Card Clients and prepared a working model to classify the defaults using Logistic Regression and Random Forest.
 • Used Evaluation Metrics such as Confusion Matrix, ROC Curve, and Precision-Recall Curve to evaluate the Classification model.
 • Deployed the model in the form of a Web App using Streamlit on AWS EC2 and Heroku.
