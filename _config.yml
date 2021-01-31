@@ -94,7 +94,7 @@ analytics:
 author:
   name             : "Ashaab Rizvi"
   avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :  #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
+  bio              : Data Science | Machine Learning #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
   location         : # location
   email            : # mail
   links:
