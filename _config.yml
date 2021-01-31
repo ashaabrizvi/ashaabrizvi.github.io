@@ -94,8 +94,8 @@ analytics:
 author:
   name             : "Ashaab Rizvi"
   avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Data Science | Machine Learning #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
-  location         : # location
+  bio              : #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
+  location         : Delhi, India # location
   email            : # mail
   links:
     - label: "Email"
@@ -122,16 +122,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ashaabrizvi"
+      #url: "https://twitter.com/ashaabrizvi"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/ashaabrizvi"
+      #url: "https://linkedin.com/in/ashaabrizvi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/ashaabrizvi"
+      #url: "https://github.com/ashaabrizvi"
     - label: "Kaggle"
       icon: "fab fa-fw fa-kaggle"
-      url: "https://kaggle.com/ashaabrizvi"
+      #url: "https://kaggle.com/ashaabrizvi"
 
 
 # Reading Files
