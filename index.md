@@ -46,9 +46,9 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 **Programming Language**: • Python
 
-**Query Language** :• SQL • No SQL
+**Query Language** :• SQL • NoSQL
 
-**Libraries Proficient** : • Numpy • Pandas • Matplotlib • Streamlit • Scikit Learn • Plotly • Pyspark • Folium • TensorFlow • NLTK
+**Libraries Proficient** : • Numpy • Pandas • Matplotlib • Streamlit • Scikit-Learn • Plotly • Pyspark • Folium • TensorFlow • NLTK
 
 **Tools** : • Excel • Tableau • Apache Spark  • Hadoop • MongoDB
 
