@@ -34,12 +34,16 @@ I am a final year engineering student with an earnest passion in learning and wo
 
  - Strengthened skills in Data Manipulation, Cleaning, and Visualization by consistently performing analysis of the questions for the month.
 
- - Finished at **[25th Rank](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)** out of 1858 registered interns.
+ - Finished at **[25th Rank](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)** out of 1858 participating interns.
 
 
 # Education
 
-- **B.Tech-Mechatronics**
+**B.Tech-Mechatronics**: Delhi Institute of Tool Engineering affiliated to GGSIPU, Delhi.
+*(2017-2021)*
+
+
+- 
 
 
 ---
