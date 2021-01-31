@@ -44,7 +44,7 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 # Skills
 
-**Programming Language**: Python
+**Programming Language**: • Python
 
 **Query Language** :• SQL • No SQL
 
