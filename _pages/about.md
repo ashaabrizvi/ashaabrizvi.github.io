@@ -1,10 +1,10 @@
 ---
-title: "About"
-permalink: /about/
-header: 
+title: "Blog"
+permalink: /blog/
+header: Blogs
 
 ---
 
-Passionate Data Geek
+Hi!
       
  
