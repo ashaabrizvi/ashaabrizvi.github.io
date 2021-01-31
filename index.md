@@ -4,7 +4,6 @@ layout: single
 author_profile: true
 classes: wide
 toc: true
-toc_label: "Table of Contents"
 
 header: 
 
