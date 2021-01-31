@@ -37,8 +37,8 @@ comments:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : "7" (default)
+    appid                : 
+    num_posts            : "5" (default)
     colorscheme          : # "light" (default), "dark"
   utterances:
     theme                : # "github-light" (default), "github-dark"
@@ -201,7 +201,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 7 # amount of posts to show
+paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Kolkata
 
