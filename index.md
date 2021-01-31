@@ -4,8 +4,10 @@ layout: single
 author_profile: true
 classes: wide
 toc: true
-
-header: 
+excerpt: 'A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.'
+header:
+  overlay_image: /assets/images/display.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
 ---
 
@@ -15,7 +17,7 @@ A Creative, Analytical, and Self-motivated Individual with having a strong incli
 
 ---
 
-## Previous work experiences
+# Work Experience
 
 - **Machine Learning Developer Intern** - Remote, Indore:  
   Default of Credit Card Clients
@@ -24,7 +26,7 @@ A Creative, Analytical, and Self-motivated Individual with having a strong incli
   Cricket Analytics
 
 
-## Education
+# Education
 
 - **B.Tech-Mechatronics**
 
