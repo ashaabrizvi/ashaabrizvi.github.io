@@ -2,7 +2,6 @@
 title: 'Ashaab Rizvi'
 layout: single
 author_profile: true
-classes: wide
 toc: true
 excerpt: 'A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.'
 header:
