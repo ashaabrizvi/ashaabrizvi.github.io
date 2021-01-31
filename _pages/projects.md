@@ -1,6 +1,6 @@
 ---
 title: 'Projects'
-layout: single
+layout: home
 permalink: /projects/
 author_profile: true
 header: Data Science Projects
