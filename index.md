@@ -52,6 +52,13 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 **Tools** : • Excel • Tableau • Apache Spark  • Hadoop • MongoDB
 
+# Languages
+
+| Language | Level  |
+|----------|--------|
+| English  | Fluent |
+| Hindi    | Fluent |
+| German   | Basic  |
 
 
 ---
