@@ -1,10 +1,9 @@
 ---
-title: "Blog"
+title: 'Blog'
+layout: home
 permalink: /blog/
-header: Blogs
+author_profile: true
 
 ---
-
-Hi!
       
  
