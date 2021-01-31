@@ -1,14 +1,9 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
-  - title: "Categories"
-    url: /_categories/
-  - title: "Tags"
-    url: /_tags/
-  - title: "Pages"
-    url: /_pages/
-  - title: "Collections"
-    url: /_collection-archive/
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
+    url: /blog/
   - title: "Reading List"
-    url: /_readinglist/
+    url: /readinglist/
+ 
