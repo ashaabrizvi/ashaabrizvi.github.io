@@ -97,7 +97,7 @@ author:
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Passionate Data Geek"
   location         : "Delhi, India"
-  email            : ashaabrizvi09@gmail.com
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -114,9 +114,6 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       # url: "https://github.com/ashaabrizvi"
-    - label: "Kaggle"
-      icon: "fab fa-fw fa-kaggle"
-      # url: "https://kaggle.com/ashaabrizvi"
 
 # Site Footer
 footer:
