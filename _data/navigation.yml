@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Kaggle"
-    url: https://kaggle.com/ashaabrizvi
-  - title: "LinkedIn"
-    url: https://linkedin.com/in/ashaabrizvi
-  #  - title: ""
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Home"
+    url: https://ashaabrizvi.github.io
+  - title: "About"
+    url: https://ashaabrizvi.github.io/about/
+   - title: "Projects"
+    url: https://ashaabrizvi.github.io/projects/
+   - title: "Reading List"
+    url: https://ashaabrizvi.github.io/readinglist/
+   - title: "Miscellaneous"
+    url: https://ashaabrizvi.github.io/miscellaneous/
