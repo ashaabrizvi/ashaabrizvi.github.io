@@ -20,7 +20,7 @@ title                    : "Ashaab Rizvi's Portfolio"
 title_separator          : "-"
 subtitle                 :  # site tagline that appears below site title in masthead
 name                     : "Ashaab Rizvi"
-description              : "A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. Passionate Data Geek with the will and desire to excel, curiosity to learn,and make the most of the opportunities that come my way."
+description              : # "A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. Passionate Data Geek with the will and desire to excel, curiosity to learn,and make the most of the opportunities that come my way."
 url                      : "https://ashaabrizvi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -95,9 +95,9 @@ analytics:
 author:
   name             : "ASHAAB RIZVI"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Passionate Data Geek"
+  bio              : "A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment. Passionate Data Geek with the will and desire to excel, curiosity to learn,and make the most of the opportunities that come my way."
   location         : # location
-  email            : ashaabrizvi09@gmail.com
+  email            : # mail
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
