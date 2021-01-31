@@ -1,10 +1,10 @@
 ---
 layout: single
-title:  "Bash"
+title:  "Python"
 date:   2021-01-31
 author_profile: true
 
-header:
+header: DataCamp
  
 ---
 
