@@ -3,7 +3,7 @@ title: 'Ashaab Rizvi'
 layout: single
 author_profile: true
 toc: true
-excerpt: 'A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.'
+excerpt: 
 header:
   
 
@@ -11,7 +11,7 @@ header:
 
 # About me
 
-I am a final year engineering student with an earnest passion in learning and working in data-driven environment and am seeking opportunities related to the same. A Passionate Data Geek with the will and desire to excel, curiosity to learn, and make the most of the opportunities that come my way.
+A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.
 
 ---
 
