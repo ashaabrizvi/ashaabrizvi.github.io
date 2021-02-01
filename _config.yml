@@ -98,9 +98,6 @@ author:
   location         : Delhi, India # location
   email            : "ashaabrizvi09@gmail.com"
   links: 
-   - label: "Email" 
-     icon: "fas fa-fw fa-envelope-square"
-     url: "mailto: ashaabrizvi09@gmail.com" 
    - label: "Twitter"
      icon: "fab fa-fw fa-twitter-square"
      url: "https://twitter.com/ashaabrizvi" 
