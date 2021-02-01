@@ -98,11 +98,21 @@ author:
   location         : Delhi, India # location
   email            : "ashaabrizvi09@gmail.com"
   links: 
-   - label: "Email" icon: "fas fa-fw fa-envelope-square" url: "mailto: ashaabrizvi09@gmail.com" 
-   - label: "Twitter" icon: "fab fa-fw fa-twitter-square" url: "https://twitter.com/ashaabrizvi" 
-   - label: "LinkedIn" icon: "fab fa-fw fa-linkedin" url: "https://linkedin.com/in/ashaabrizvi" 
-   - label: "GitHub" icon: "fab fa-fw fa-github" url: "https://github.com/ashaabrizvi" 
-   - label: "Kaggle" icon: "fab fa-fw fa-kaggle" url: "https://kaggle.com/ashaabrizvi"
+   - label: "Email" 
+     icon: "fas fa-fw fa-envelope-square"
+     url: "mailto: ashaabrizvi09@gmail.com" 
+   - label: "Twitter"
+     icon: "fab fa-fw fa-twitter-square"
+     url: "https://twitter.com/ashaabrizvi" 
+   - label: "LinkedIn"
+     icon: "fab fa-fw fa-linkedin" 
+     url: "https://linkedin.com/in/ashaabrizvi" 
+   - label: "GitHub"
+     icon: "fab fa-fw fa-github"
+     url: "https://github.com/ashaabrizvi" 
+   - label: "Kaggle"
+     icon: "fab fa-fw fa-kaggle"
+     url: "https://kaggle.com/ashaabrizvi"
 
 # Site Footer
 footer:
