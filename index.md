@@ -19,7 +19,6 @@ I am a final year engineering student with an earnest passion in learning and wo
 # Work Experience
 
 **Machine Learning Developer Intern** - **[Technocolabs](https://technocolabs.tech/)** *(09/2020-10/2020)*:[🔗](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)
-*(09/2020-10/2020)*
 
  - Worked on a Machine Learning project for the company on various domain of tasks such as Classification of models, Image Processing, Neural Network technique like CNN       Layer, Model Training, and Deployment. 
 
@@ -28,7 +27,6 @@ I am a final year engineering student with an earnest passion in learning and wo
  - Letter of Recommendation by the CEO.
 
  **Data Analytics Intern** - **[Widhya](https://widhya.org/)** *(10/2020-11/2020)*:[🔗](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)
-*(10/2020-11/2020)*
 
  - It was India's first Gamified Analytics Internship in which one was intended to solve daily IPL quiz questions based on the analysis.
 
