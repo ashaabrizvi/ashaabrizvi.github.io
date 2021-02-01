@@ -1,5 +1,5 @@
 ---
-title: 'Ashaab Rizvi'
+title: 
 layout: single
 author_profile: true
 toc: true
