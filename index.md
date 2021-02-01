@@ -59,9 +59,10 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 | Language | Level  |
 |----------|--------|
-| English  | Fluent |
-| Hindi    | Fluent |
-| German   | Basic  |
-
+| English  | Professional Working Proficiency |
+| Hindi    | Native Proficiency               |
+| German   | Elementary Proficiency           |
 
 ---
+
+
