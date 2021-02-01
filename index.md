@@ -3,7 +3,7 @@ title: About Me
 layout: single
 author_profile: true
 toc: true
-excerpt: A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.
+excerpt: 'A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment.'
 header:
 
 ---
