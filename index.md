@@ -38,8 +38,8 @@ I am a final year engineering student with an earnest passion in learning and wo
 
 # Education
 
-**B.Tech-Mechatronics**: Delhi Institute of Tool Engineering affiliated to GGSIPU, Delhi.
-*(2017-2021)*
+**B.Tech-Mechatronics** *(2017-2021)*: Delhi Institute of Tool Engineering affiliated to GGSIPU, Delhi.
+
   
 ---
 
