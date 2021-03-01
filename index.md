@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: Ashaab Rizvi
 layout: single
 author_profile: true
 toc: true
