@@ -55,7 +55,7 @@ header:
 |----------|--------|
 | English  | Professional Working Proficiency |
 | Hindi    | Native Proficiency               |
-| German   | Elementary Proficiency           |
+| Spanish  | Elementary Proficiency           |
 
 ---
 
