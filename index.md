@@ -1,5 +1,5 @@
 ---
-/*
+
 title: #Ashaab Rizvi
 layout: single
 author_profile: true
@@ -8,7 +8,7 @@ excerpt: #'Highly skilled, analytical, and experienced Application Development A
 header:
   overlay_image: /assests/images/display.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-*/
+
 ---
 
 # Work Experience
