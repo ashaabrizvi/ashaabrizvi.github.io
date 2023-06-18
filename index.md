@@ -4,10 +4,22 @@ title: Ashaab Rizvi
 layout: single
 author_profile: true
 toc: true
-excerpt: ' Analyst| Pythonic '
+excerpt: 'Highly skilled, analytical, and experienced Application Development Analyst with a relentless drive for innovation and a commitment to excellence.'
 header:
-  overlay_image: /assests/images/display.jpg
-  overlay_filter: 0.2 # same as adding an opacity of 0.5 to a black background
+  overlay_image: /assets/images/display.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+
+<style>
+.title {
+  font-family: Calibri, sans-serif;
+  font-size: 14px;
+}
+
+.excerpt {
+  font-family: Calibri, sans-serif;
+  font-size: 11px;
+}
+</style>
 
 ---
 
