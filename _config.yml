@@ -94,13 +94,10 @@ analytics:
 author:
   name             : "Ashaab Rizvi"
   avatar           : "/assets/images/logo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : Data Science & Analytics #"A Creative, Analytical, and Self-motivated Individual with having a strong inclination towards learning and working in a data-driven environment."
+  bio              : Analyst @ Accenture #"Highly skilled, analytical, and experienced Application Development Analyst with a relentless drive for innovation and a commitment to excellence. Demonstrated expertise in developing and implementing scalable data processing pipelines, automating tasks, and integrating data seamlessly. Adept at translating business requirements into robust software solutions, leveraging a comprehensive understanding of software development principles and data engineering practices."
   location         : Delhi, India # location
-  email            : "ashaabrizvi11@gmail.com"
+  email            : "ashaabrizvi09@gmail.com"
   links: 
-   - label: "Twitter"
-     icon: "fab fa-fw fa-twitter-square"
-     url: "https://twitter.com/ashaabrizvi" 
    - label: "LinkedIn"
      icon: "fab fa-fw fa-linkedin" 
      url: "https://linkedin.com/in/ashaabrizvi" 
@@ -114,9 +111,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/ashaabrizvi"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/ashaabrizvi"
