@@ -32,20 +32,19 @@ header:
 
 # Education
 
-**B.Tech-Mechatronics** *(2017-2021)*: Delhi Institute of Tool Engineering affiliated to GGSIPU, Delhi.
+**B.Tech-Mechatronics** *(2017-2021)*: Guru Gobind Singh Indraprashtha University, Delhi.
 
   
 ---
 
 # Skills
 
-**Programming Language**: • Python
+**Programming Language**: • Python, SQL, PL/SQL
 
-**Query Language** :• SQL • NoSQL
+**Tools** : • Excel • Power BI • Apache Spark  • Apache Hadoop • Apache Kafka • Splunk • MongoDB • AWS S3 • ETL Tools • Veeva
 
 **Libraries Proficient** : • Numpy • Pandas • Matplotlib • Streamlit • Scikit-Learn • Plotly • Pyspark • Folium • TensorFlow • NLTK
 
-**Tools** : • Excel • Tableau • Apache Spark  • Hadoop • MongoDB
 
 ---
 
@@ -55,7 +54,7 @@ header:
 |----------|--------|
 | English  | Professional Working Proficiency |
 | Hindi    | Native Proficiency               |
-| Spanish  | Elementary Proficiency           |
+| German   | Elementary Proficiency           |
 
 ---
 
