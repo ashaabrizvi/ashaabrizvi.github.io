@@ -9,6 +9,7 @@ header:
  overlay_image: /assests/images/display.jpg
  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 
+---
 <style>
 .title {
   font-family: Calibri, sans-serif;
@@ -21,7 +22,6 @@ header:
 }
 </style>
 
----
 
 # Work Experience
 
