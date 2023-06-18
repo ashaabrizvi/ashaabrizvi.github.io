@@ -1,13 +1,14 @@
 ---
-title: Ashaab Rizvi
+/*
+title: #Ashaab Rizvi
 layout: single
 author_profile: true
 toc: true
-excerpt: 'Highly skilled, analytical, and experienced Application Development Analyst with a relentless drive for innovation and a commitment to excellence. Demonstrated expertise in developing and implementing scalable data processing pipelines, automating tasks, and integrating data seamlessly. Adept at translating business requirements into robust software solutions, leveraging a comprehensive understanding of software development principles and data engineering practices.'
+excerpt: #'Highly skilled, analytical, and experienced Application Development Analyst with a relentless drive for innovation and a commitment to excellence. Demonstrated expertise in developing and implementing scalable data processing pipelines, automating tasks, and integrating data seamlessly. Adept at translating business requirements into robust software solutions, leveraging a comprehensive understanding of software development principles and data engineering practices.'
 header:
   overlay_image: /assests/images/display.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-
+*/
 ---
 
 # Work Experience
