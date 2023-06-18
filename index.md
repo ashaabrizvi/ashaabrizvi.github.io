@@ -13,12 +13,12 @@ header:
 <style>
 .title {
   font-family: Calibri, sans-serif;
-  font-size: 14px;
+  font-size: 10px;
 }
 
 .excerpt {
   font-family: Calibri, sans-serif;
-  font-size: 11px;
+  font-size: 8px;
 }
 </style>
 
