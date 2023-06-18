@@ -48,7 +48,10 @@ header:
 
 **B.Tech-Mechatronics** *(2017-2021)*: Guru Gobind Singh Indraprashtha University, Delhi.
 
-  
+• CGPA – 8.59
+• GK Quiz Winner at Anugoonj – Annual Cultural Fest 2019
+• Event Host (Tech Quiz) at Ennogy Tech Fest 2019
+
 ---
 
 # Skills
