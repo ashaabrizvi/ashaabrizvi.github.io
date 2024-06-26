@@ -38,7 +38,7 @@ header:
 
 - CGPA: 8.59/10
 - GK Quiz Winner at Anugoonj – Annual Cultural Fest 2019
-- Event Host (Tech Quiz) at Ennogy Tech Fest 2019
+- Event Host (Tech Quiz) - Ennogy Tech Fest 2019
 
 ---
 
