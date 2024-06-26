@@ -1,14 +1,12 @@
 ---
-
 title: Ashaab Rizvi
 layout: single
 author_profile: true
 toc: true
-excerpt: 'Highly skilled, analytical, and experienced Application Development Analyst with a relentless drive for innovation and a commitment to excellence.'
+excerpt: 'Highly skilled, analytical, and experienced Data Engineer with a relentless drive for innovation and a commitment to excellence.'
 header:
- overlay_image: /assests/images/display.jpg
+ overlay_image: /assets/images/display.jpg
  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
-
 ---
 <style>
 .title {
@@ -22,59 +20,72 @@ header:
 }
 </style>
 
-
 # Work Experience
 
-**Application Development Analyst** - [Accenture](https://www.accenture.com/) *(01/2022-Present)*
+**Data Engineer** - [Accenture](https://www.accenture.com/) *(01/2022-Present)*
 
- - Developed and implemented scalable software solutions for application development leveraging Oracle PL/SQL, and ETL tools to optimize data processing and integration.
- 
- - Collaborated with cross-functional teams to design and implement system upgrades resulting in a 30% decrease in errors and improved system stability.
- 
- - Actively participated in the full software development lifecycle (SDLC), including requirements gathering, design, development, testing, deployment, and maintenance.
- 
- - Streamlined ETL processes and enhanced data integration workflows, resulting in a 40% reduction in data processing time.
- 
- - Automated repetitive tasks and streamlined data processes by developing batch scripts, leveraging technologies such as PowerShell and Shell scripting, resulting in a 40% reduction in manual effort and increased operational efficiency.
-
- - Promoted from Associate to Analyst through successful completion of Accenture's Techleap School exam, demonstrating proficiency and exceptional dedication to professional growth and development. 
-
-**Machine Learning Developer Intern** - [Technocolabs](https://technocolabs.tech/) *(09/2020-10/2020)*:[🔗](https://drive.google.com/file/d/1_olNNOkbUSLH01Wm04pQnVGz-4FabXNk/view?usp=sharing)
-
- - Worked on a Machine Learning project for the company on various domain of tasks such as Classification of models, Image Processing, Neural Network technique like CNN       Layer, Model Training, and Deployment. 
-
- - Deployed the model in the form of a Web App using Streamlit on AWS EC2 and Heroku.
-
- - Letter of Recommendation by the CEO.
-
- **Data Analytics Intern** - [Widhya](https://widhya.org/) *(10/2020-11/2020)*:[🔗](https://drive.google.com/file/d/1jYSbkAVfjxiYAW6b-Kg81RmTL4zdDw_k/view?usp=sharing)
-
- - It was India's first Gamified Analytics Internship in which one was intended to solve daily IPL quiz questions based on the analysis.
-
- - Strengthened skills in Data Manipulation, Cleaning, and Visualization by consistently performing analysis of the questions for the month.
-
- - Finished at 25th Rank out of 1858 participating interns.
+- Developed and implemented scalable software solutions for data processing and analysis using Python, SQL, and Databricks.
+- Designed and maintained ETL pipelines, ensuring data integrity and optimal performance.
+- Collaborated with cross-functional teams to enhance data quality and governance.
+- Utilized AWS Redshift for data warehousing and analytics, achieving a 20% increase in query performance.
+- Conducted exploratory data analysis (EDA) to uncover insights and drive business decisions.
 
 ---
 
 # Education
 
-**B.Tech-Mechatronics** *(2017-2021)*: Guru Gobind Singh Indraprashtha University, Delhi.
+**B.Tech in Mechatronics** *(2017-2021)*: Guru Gobind Singh Indraprastha University, Delhi.
 
-• CGPA – 8.59
-• GK Quiz Winner at Anugoonj – Annual Cultural Fest 2019
-• Event Host (Tech Quiz) at Ennogy Tech Fest 2019
+- CGPA: 8.59/10
+- GK Quiz Winner at Anugoonj – Annual Cultural Fest 2019
+- Event Host (Tech Quiz) at Ennogy Tech Fest 2019
 
 ---
 
 # Skills
 
-**Programming Language**: • Python, SQL, PL/SQL
+**Data Analytics:** Python, Pandas, SQL, Power BI  
+**Big Data Technologies:** Databricks, AWS Redshift  
+**Database Management:** PostgreSQL, MySQL  
+**Cloud Platforms:** AWS, GCP  
+**Development Tools:** Git, Jupyter Notebooks  
+**Soft Skills:** Analytical Thinking, Problem Solving, Communication, Team Collaboration
 
-**Tools** : • Excel • Power BI • Apache Spark  • Apache Hadoop • Apache Kafka • Splunk • MongoDB • AWS S3 • ETL Tools • Veeva
+---
 
-**Libraries Proficient** : • Numpy • Pandas • Matplotlib • Streamlit • Scikit-Learn • Plotly • Pyspark • Folium • TensorFlow • NLTK
+# Projects
 
+## Pharmaceutical Data Quality Improvement
+
+- **Business Problem:** The client needed to clean and analyze large volumes of raw data to identify key trends.
+- **What We Did:** Performed data cleaning and preprocessing using Python (Pandas, NumPy), ensuring data accuracy and consistency.
+- **Impact:** Conducted detailed data analysis to identify trends and insights, supporting data-driven decision-making.
+
+## Drug Sales Performance Analysis
+
+- **Business Problem:** The client needed to understand the sales performance of various drugs across different regions.
+- **What We Did:** Analyzed sales data using SQL to query large datasets and Excel to generate comprehensive reports.
+- **Impact:** Developed strategic insights that improved sales strategies, resulting in a 15% increase in revenue for targeted drugs and regions.
+
+## Financial Performance Dashboard
+
+- **Business Problem:** Lack of visibility into financial performance metrics.
+- **What We Did:** Created an interactive dashboard in Power BI to track financial KPIs, integrating data from various sources.
+- **Impact:** Enabled leadership to make data-driven decisions, improving financial transparency and accountability.
+
+---
+
+# Certifications & Courseworks
+
+- Full Stack Engineer - Big Data by Accenture
+- Data Analysis using Python by IBM Cognitive Class
+- Business Metrics for Data-Driven Companies by Duke University
+
+---
+
+# Interests
+
+- Reading, Cooking, AI Art, Self-Improvement, Traveling
 
 ---
 
@@ -88,4 +99,7 @@ header:
 
 ---
 
+# Contact
 
+- **Email:** [ashaabrizvi09@gmail.com](mailto:ashaabrizvi09@gmail.com)
+- **LinkedIn:** [linkedin.com/in/ashaabrizvi](https://linkedin.com/in/ashaabrizvi)
