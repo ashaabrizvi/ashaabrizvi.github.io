@@ -98,7 +98,3 @@ header:
 
 ---
 
-# Contact
-
-- **Email:** [ashaabrizvi09@gmail.com](mailto:ashaabrizvi09@gmail.com)
-- **LinkedIn:** [linkedin.com/in/ashaabrizvi](https://linkedin.com/in/ashaabrizvi)
