@@ -1,0 +1,351 @@
+# Generated from the Reading Shelf app. status: read | reading | next
+- title: "The Courage to Be Disliked"
+  author: "Ichiro Kishimi"
+  status: reading
+  theme: "Heart & spirit"
+  pages: 277
+  gid: 36752952
+- title: "The 48 Laws of Power"
+  author: "Robert Greene"
+  status: reading
+  theme: "Mindset & habits"
+  pages: 452
+  gid: 1303
+- title: "Rich Dad Poor Dad"
+  author: "Robert T. Kiyosaki"
+  status: read
+  theme: "Money & career"
+  rating: 5
+  pages: 195
+  finished: "2026-10-16"
+  gid: 69571
+- title: "Data Science Uncovering the Reality"
+  author: "Pulkit Bansal"
+  status: read
+  theme: "Ideas & data"
+  rating: 5
+  pages: 110
+  finished: "2026-10-16"
+  gid: 55709317
+- title: "Not Just a Civil Servant"
+  author: "Anil Swarup"
+  status: read
+  theme: "Money & career"
+  rating: 5
+  pages: 230
+  gid: 44063352
+- title: "30 DAYS"
+  author: "Marc Reklau"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 230
+  finished: "2020-12-16"
+  gid: 51162773
+- title: "Attitude Is Everything"
+  author: "Jeff Keller"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 129
+  finished: "2020-05-03"
+  gid: 33561786
+- title: "Become a Stock Market Genius in 5 Days"
+  author: "Shankar Kulkarni"
+  status: read
+  theme: "Money & career"
+  rating: 5
+  finished: "2022-08-22"
+  gid: 59653561
+- title: "Love for Imperfect Things"
+  author: "Haemin Sunim"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 272
+  gid: 39736045
+- title: "Tenacious"
+  author: "Marge Castillon Di Blasio"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 85
+  finished: "2022-05-28"
+  gid: 53113419
+- title: "The Magic of Thinking Big"
+  author: "David J. Schwartz"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 238
+  finished: "2021-12-03"
+  gid: 759945
+- title: "Reclaim Your Heart"
+  author: "Yasmin Mogahed"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 142
+  finished: "2021-09-25"
+  gid: 16112413
+- title: "A Little Book of Serenity"
+  author: "Ruskin Bond"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 160
+  finished: "2021-09-13"
+  gid: 31214256
+- title: "The Winning Attitude"
+  author: "Jeff Keller"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 232
+  gid: 44444131
+- title: "The Monk Who Sold His Ferrari"
+  author: "Robin Sharma"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 208
+  finished: "2020-09-25"
+  gid: 43877
+- title: "The Power of Your Subconscious Mind"
+  author: "Joseph Murphy"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 358
+  finished: "2020-05-03"
+  gid: 38116765
+- title: "The One Thing"
+  author: "Gary Keller"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 240
+  finished: "2020-07-02"
+  gid: 16256798
+- title: "Atomic Habits"
+  author: "James Clear"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 319
+  finished: "2020-05-03"
+  gid: 40121378
+- title: "Deep Work"
+  author: "Cal Newport"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 296
+  finished: "2020-05-03"
+  gid: 25744928
+- title: "Ikigai"
+  author: "Héctor García"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  finished: "2020-05-03"
+  gid: 40534545
+- title: "The Miracle Morning"
+  author: "Hal Elrod"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 172
+  gid: 17166225
+- title: "As a Man Thinketh"
+  author: "James Allen"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 80
+  finished: "2020-05-03"
+  gid: 81959
+- title: "The Alchemist"
+  author: "Paulo Coelho"
+  status: read
+  theme: "Heart & spirit"
+  rating: 5
+  pages: 84
+  finished: "2020-04-27"
+  gid: 25076674
+- title: "The 5 AM Revolution"
+  author: "Dan Luca"
+  status: read
+  theme: "Mindset & habits"
+  rating: 5
+  pages: 129
+  finished: "2020-05-03"
+  gid: 31146196
+- title: "How to Talk to Anyone"
+  author: "Leil Lowndes"
+  status: read
+  theme: "Money & career"
+  rating: 5
+  pages: 345
+  finished: "2019-06-15"
+  gid: 35210
+- title: "The StorySelling Method"
+  author: "Philipp Humm"
+  status: read
+  theme: "Money & career"
+  rating: 4.5
+  pages: 184
+  finished: "2026-10-16"
+  gid: 123297378
+- title: "Nikola Tesla"
+  author: "Sean Patrick"
+  status: read
+  theme: "Mindset & habits"
+  rating: 4
+  pages: 47
+  finished: "2020-05-03"
+  gid: 17835351
+- title: "Think & Grow Rich / The Law of Success"
+  author: "Napoleon Hill"
+  status: next
+  theme: "Mindset & habits"
+  pages: 695
+  gid: 8277903
+- title: "Digital Minimalism"
+  author: "Cal Newport"
+  status: next
+  theme: "Mindset & habits"
+  pages: 302
+  gid: 40672036
+- title: "Outliers"
+  author: "Malcolm Gladwell"
+  status: next
+  theme: "Mindset & habits"
+  pages: 309
+  gid: 3228917
+- title: "Psychology from the Islamic Perspective"
+  author: "Aisha Utz"
+  status: next
+  theme: "Heart & spirit"
+  pages: 352
+  gid: 13549751
+- title: "Antifragile"
+  author: "Nassim Nicholas Taleb"
+  status: next
+  theme: "Ideas & data"
+  pages: 426
+  gid: 13530973
+- title: "No Limits"
+  author: "Mukesh Bansal"
+  status: next
+  theme: "Money & career"
+  pages: 373
+  gid: 50363045
+- title: "Thinking, Fast and Slow"
+  author: "Daniel Kahneman"
+  status: next
+  theme: "Ideas & data"
+  pages: 499
+  gid: 11468377
+- title: "The Psychology of Money"
+  author: "Morgan Housel"
+  status: next
+  theme: "Money & career"
+  pages: 242
+  gid: 41881472
+- title: "The 4-Hour Workweek"
+  author: "Timothy Ferriss"
+  status: next
+  theme: "Money & career"
+  pages: 308
+  gid: 368593
+- title: "The Intelligent Investor"
+  author: "Benjamin Graham"
+  status: next
+  theme: "Money & career"
+  pages: 623
+  gid: 106835
+- title: "Freakonomics"
+  author: "Steven D. Levitt"
+  status: next
+  theme: "Ideas & data"
+  pages: 268
+  gid: 1202
+- title: "Muhammad: How He Can Make You Extraordinary"
+  author: "Hesham Al-Awadi"
+  status: next
+  theme: "Heart & spirit"
+  pages: 164
+  gid: 31123657
+- title: "The Black Swan"
+  author: "Nassim Nicholas Taleb"
+  status: next
+  theme: "Ideas & data"
+  pages: 480
+  gid: 242472
+- title: "The Subtle Art of Not Giving a F*ck"
+  author: "Mark Manson"
+  status: next
+  theme: "Mindset & habits"
+  pages: 212
+  gid: 28257707
+- title: "Sapiens"
+  author: "Yuval Noah Harari"
+  status: next
+  theme: "Ideas & data"
+  pages: 466
+  gid: 23198201
+- title: "Man's Search for Meaning"
+  author: "Viktor E. Frankl"
+  status: next
+  theme: "Heart & spirit"
+  pages: 165
+  gid: 4069
+- title: "Surrounded by Idiots"
+  author: "Thomas Erikson"
+  status: next
+  theme: "Mindset & habits"
+  pages: 304
+  gid: 39101777
+- title: "The Presence Process"
+  author: "Michael Brown"
+  status: next
+  theme: "Heart & spirit"
+  pages: 325
+  gid: 61315
+- title: "The Power of Now"
+  author: "Eckhart Tolle"
+  status: next
+  theme: "Heart & spirit"
+  pages: 229
+  gid: 6708
+- title: "Letting Go"
+  author: "David R. Hawkins"
+  status: next
+  theme: "Heart & spirit"
+  pages: 368
+  gid: 16098910
+- title: "The Mountain Is You"
+  author: "Brianna Wiest"
+  status: next
+  theme: "Heart & spirit"
+  pages: 250
+  gid: 53642699
+- title: "The Millionaire Fastlane"
+  author: "M.J. DeMarco"
+  status: next
+  theme: "Money & career"
+  pages: 322
+  gid: 18872437
+- title: "A Manual for Living"
+  author: "Epictetus"
+  status: next
+  theme: "Heart & spirit"
+  pages: 96
+  gid: 24617
+- title: "The Forty Rules of Love"
+  author: "Elif Shafak"
+  status: next
+  theme: "Heart & spirit"
+  pages: 354
+  gid: 6642715
