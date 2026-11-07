@@ -140,7 +140,7 @@
 
   /* certifications */
   var CERTS = [
-    ['Full Stack Engineer Big Data', 'Accenture'], ['GenAI Automation Engineer', 'Accenture'],
+    ['Databricks Certified Data Engineer Associate', 'Databricks'], ['Full Stack Engineer Big Data', 'Accenture'], ['GenAI Automation Engineer', 'Accenture'],
     ['AWS Certified Cloud Practitioner', 'Amazon Web Services'], ['Big Data with PySpark', 'DataCamp'],
     ['Oracle Cloud Infrastructure Foundations 2021', 'Oracle'], ['Oracle Cloud AI Foundations 2023', 'Oracle'],
     ['Data Analysis using Python', 'IBM Cognitive Class'], ['Business Metrics for Data-Driven Companies', 'Duke University'],
@@ -156,16 +156,10 @@
   var STATUS = [['all', 'All'], ['read', 'Read'], ['reading', 'Reading now'], ['next', 'Up next']];
   var themes = ['all'];
   BOOKS.forEach(function (b) { if (themes.indexOf(b.theme) < 0) themes.push(b.theme); });
-  var st = { status: 'all', theme: 'all', q: '', sort: 'rating' };
+  var st = { status: 'all', theme: 'all', q: '', sort: 'title' };
 
   function count(status, theme) {
     return BOOKS.filter(function (b) { return (status === 'all' || b.status === status) && (theme === 'all' || b.theme === theme); }).length;
-  }
-  function stars(r) {
-    if (!r) return '';
-    var f = Math.floor(r), s = '';
-    for (var i = 0; i < f; i++) s += '★';
-    return s + (r > f ? '½' : '');
   }
   function chipRow(host, items, key) {
     host.textContent = '';
@@ -190,14 +184,13 @@
     list.sort(function (a, b) {
       if (st.sort === 'title') return a.title.localeCompare(b.title);
       if (st.sort === 'pages') return (b.pages || 0) - (a.pages || 0);
-      return (b.rating || 0) - (a.rating || 0) || a.title.localeCompare(b.title);
+      return a.title.localeCompare(b.title);
     });
     var host = $('#books'); host.textContent = '';
     list.forEach(function (b) {
       var c = el('button', 'book'); c.type = 'button'; c.dataset.status = b.status;
       c.appendChild(el('b', null, b.title));
       c.appendChild(el('span', 'by', b.author));
-      if (b.rating) { var s = el('div', 'stars', stars(b.rating)); s.setAttribute('aria-label', b.rating + ' out of 5'); c.appendChild(s); }
       var m = el('div', 'more');
       m.textContent = [b.theme, b.pages ? b.pages + ' pages' : null, b.status === 'read' ? 'read' : b.status === 'reading' ? 'reading now' : 'up next'].filter(Boolean).join('  ·  ');
       c.appendChild(m);

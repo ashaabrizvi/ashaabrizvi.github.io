@@ -175,3 +175,5 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
 
 .langs{justify-content:center;margin:14px 0 0}
 .contact .meta{margin-bottom:0}
+
+.plain{margin:10px 0 0;padding-left:18px;color:var(--muted);font-size:14px}.plain li{margin:3px 0}
