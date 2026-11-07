@@ -66,26 +66,26 @@
 
   /* pipeline explorer */
   var STAGES = [
-    { id: 'Ingest', ic: '01', sub: 'S3, APIs', title: 'Ingest',
-      text: 'Getting data in safely and reliably, at volume.',
-      points: ['Pipelines in AWS handling 20 TB+ of data', 'Token-authenticated API calls into Amazon Redshift', 'Landing zones on AWS S3 built for high-volume workloads'],
-      tags: ['AWS S3', 'AWS Data Pipeline', 'Redshift', 'Python'] },
-    { id: 'Transform', ic: '02', sub: 'SQL, Spark', title: 'Transform',
-      text: 'Turning raw data into trusted models, fast and cheap to run.',
-      points: ['ETL optimization that improved query efficiency by 40%', 'Removed redundant steps and repeated table rewrites in stored-procedure SQL', 'Merged compatible steps and right-sized warehouses to cut runtime and spend'],
-      tags: ['SQL', 'PySpark', 'Oracle PL/SQL', 'Process optimization'] },
-    { id: 'Automate', ic: '03', sub: 'Workflows, AI', title: 'Automate',
-      text: 'Making runs repeatable so a delivery starts from one prompt, not a runbook.',
-      points: ['Monthly delivery runbooks turned into reusable Snowflake Cortex Code skills', 'Phased runs that can be paused, checked and resumed', 'Next month\'s SQL generated from the previous month\'s template', 'Automated ETL and maintenance with PL/SQL and batch scripts, 50% more efficient'],
-      tags: ['Snowflake Cortex Code', 'Workflow automation', 'Shell', 'Docker'] },
-    { id: 'Validate', ic: '04', sub: 'Quality', title: 'Validate',
-      text: 'Catching problems before the client does.',
-      points: ['Row count, null, distinct value and schema profiling after every run', 'Results saved as JSON summaries for traceability', 'Current vs previous refresh comparisons flag trend breaks, outliers and direction changes'],
-      tags: ['Data quality', 'SQL', 'Python', 'JSON'] },
-    { id: 'Deliver', ic: '05', sub: 'Serve', title: 'Deliver',
-      text: 'Getting trustworthy data to the people who use it.',
-      points: ['Monthly deliveries on Snowflake with every AI-run step reviewed and approved by me', 'KPI analysis and root-cause investigation when a metric moves unexpectedly', 'Client-ready summaries, executive updates and clear recommendations'],
-      tags: ['Snowflake', 'Redshift', 'KPI analysis', 'Stakeholder delivery'] }
+    { id: 'Automate', ic: '01', sub: 'Cortex Code', title: 'Automate',
+      text: 'Turning recurring monthly delivery workflows into reusable, AI-assisted processes.',
+      points: ['Reusable processes built with Snowflake Cortex Code, reducing manual intervention and simplifying execution', 'Phased execution with checkpoints, validation and resumability for better process control and delivery reliability', 'Next month\'s SQL workflows generated from existing templates, cutting repetitive development effort'],
+      tags: ['Snowflake Cortex Code', 'SQL', 'Workflow automation', 'GenAI'] },
+    { id: 'Optimize', ic: '02', sub: 'SQL, cost', title: 'Optimize',
+      text: 'Making the workflows leaner and cheaper to run.',
+      points: ['Reviewed SQL workflows and stored procedures, removing redundant operations, repeated table rewrites and unnecessary steps', 'Analyzed query performance and warehouse utilization to improve execution efficiency and compute consumption', 'Reduced processing time and operational cost through workflow simplification and resource optimization'],
+      tags: ['Snowflake', 'SQL', 'Process optimization'] },
+    { id: 'Validate', ic: '03', sub: 'QC checks', title: 'Validate',
+      text: 'Catching data issues before outputs reach stakeholders.',
+      points: ['Automated post-execution checks on record counts, null values, distinct values and schema profiling', 'Structured JSON quality summaries and comparisons across reporting cycles to spot anomalies, unexpected trends and inconsistencies', 'Stronger delivery controls, with potential issues identified before delivery'],
+      tags: ['Data quality', 'SQL', 'Python', 'PySpark'] },
+    { id: 'Investigate', ic: '04', sub: 'KPIs', title: 'Investigate',
+      text: 'Finding out why a business metric moved.',
+      points: ['Analyzed KPIs such as sales, orders and customer activity across customer segments, fulfilment types and basket sizes', 'Reconciled multiple data sources to tell genuine business trends from data-capture inconsistencies', 'Weekly and monthly comparisons to surface emerging trends, anomalies and the drivers of performance'],
+      tags: ['KPI analysis', 'Root-cause analysis', 'Business analytics', 'SQL'] },
+    { id: 'Deliver', ic: '05', sub: 'Insights', title: 'Deliver',
+      text: 'Turning findings into something clients can act on.',
+      points: ['Concise, client-ready weekly and monthly performance summaries', 'Executive updates and presentation storylines covering key trends, performance drivers and recommendations', 'Clear, structured, business-oriented communication that supports data-driven discussions'],
+      tags: ['Stakeholder communication', 'Executive updates', 'Recommendations'] }
   ];
   var pipe = $('#pipe'), detail = $('#pipeDetail');
   function showStage(i) {
