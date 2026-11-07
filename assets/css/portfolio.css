@@ -171,3 +171,6 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
 .term pre{margin:0;padding:16px;min-height:190px;font:400 12.5px/1.8 var(--mono);color:var(--fg);white-space:pre-wrap}
 .term .ok{color:#34d399}.term .dim{color:var(--muted)}
 @media (min-width:1020px){.term{display:block}}
+
+.langs{justify-content:center;margin:14px 0 0}
+.contact .meta{margin-bottom:0}
