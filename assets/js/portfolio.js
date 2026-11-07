@@ -35,13 +35,13 @@
 
   /* count-up */
   $$('[data-count]').forEach(function (n) {
-    var target = +n.dataset.count, suf = n.dataset.suffix || '';
-    if (reduce) { n.textContent = target + suf; return; }
+    var target = +n.dataset.count, suf = n.dataset.suffix || '', pre = n.dataset.prefix || '';
+    if (reduce) { n.textContent = pre + target + suf; return; }
     var t0 = null;
     function step(t) {
       if (!t0) t0 = t;
       var p = Math.min(1, (t - t0) / 1200);
-      n.textContent = Math.round(target * (1 - Math.pow(1 - p, 3))) + suf;
+      n.textContent = pre + Math.round(target * (1 - Math.pow(1 - p, 3))) + suf;
       if (p < 1) requestAnimationFrame(step);
     }
     requestAnimationFrame(step);
@@ -67,16 +67,16 @@
   /* pipeline explorer */
   var STAGES = [
     { id: 'Automate', ic: '01', sub: 'Cortex Code', title: 'Automate',
-      text: 'Turning recurring monthly delivery workflows into reusable, AI-assisted processes.',
-      points: ['Reusable processes built with Snowflake Cortex Code, reducing manual intervention and simplifying execution', 'Phased execution with checkpoints, validation and resumability for better process control and delivery reliability', 'Next month\'s SQL workflows generated from existing templates, cutting repetitive development effort'],
+      text: 'Turning 10+ recurring monthly deliveries into reusable, AI-assisted runs.',
+      points: ['Delivery workflows automated with Snowflake Cortex Code, with phased runs, checkpoints and resumability', 'Each month\'s SQL workflows generated from reusable templates', 'Turnaround cut by ~60%, with every AI-run step reviewed and approved by me'],
       tags: ['Snowflake Cortex Code', 'SQL', 'Workflow automation', 'GenAI'] },
     { id: 'Optimize', ic: '02', sub: 'SQL, cost', title: 'Optimize',
       text: 'Making the workflows leaner and cheaper to run.',
       points: ['Reviewed SQL workflows and stored procedures, removing redundant operations, repeated table rewrites and unnecessary steps', 'Analyzed query performance and warehouse utilization to improve execution efficiency and compute consumption', 'Reduced processing time and operational cost through workflow simplification and resource optimization'],
       tags: ['Snowflake', 'SQL', 'Process optimization'] },
     { id: 'Validate', ic: '03', sub: 'QC checks', title: 'Validate',
-      text: 'Catching data issues before outputs reach stakeholders.',
-      points: ['Automated post-execution checks on record counts, null values, distinct values and schema profiling', 'Structured JSON quality summaries and comparisons across reporting cycles to spot anomalies, unexpected trends and inconsistencies', 'Stronger delivery controls, with potential issues identified before delivery'],
+      text: 'A 3-layer QC framework that runs every cycle, before anything reaches a client.',
+      points: ['L1 structural: schema drift, column types, row counts vs the prior cycle', 'L2 integrity: nulls, duplicates, key uniqueness, distinct-value shifts', 'L3 business reasonableness: KPI variance vs prior week or month, segment coverage, outliers vs trend', 'Results saved as JSON summaries and compared across cycles'],
       tags: ['Data quality', 'SQL', 'Python', 'PySpark'] },
     { id: 'Investigate', ic: '04', sub: 'KPIs', title: 'Investigate',
       text: 'Finding out why a business metric moved.',
@@ -115,13 +115,11 @@
 
   /* skills */
   var SKILLS = [
-    ['Snowflake', 'Warehouse', 'Warehouse'], ['Redshift', 'Warehouse', 'Warehouse'], ['Oracle 12c', 'Warehouse', 'Warehouse'], 
-    ['SQL', 'Language', 'Languages'], ['Python', 'Language', 'Languages'], ['PySpark', 'Processing', 'Processing'], ['PL/SQL', 'Language', 'Languages'], ['Shell scripting', 'Language', 'Languages'],
-    ['AWS Data Pipeline', 'Orchestration', 'Cloud'], ['Snowflake Cortex Code', 'AI-assisted DataOps', 'AI'], ['Workflow automation', 'DataOps', 'Automation'], ['Data quality', 'Controls', 'Automation'], ['KPI analysis', 'Analytics', 'Analytics'], ['Root-cause analysis', 'Analytics', 'Analytics'], ['Business analytics', 'Analytics', 'Analytics'], ['Process optimization', 'Efficiency', 'Processing'],
-    ['AWS S3', 'Storage', 'Cloud'], ['AWS', 'Cloud', 'Cloud'], ['Docker', 'Containers', 'Cloud'],
-    ['GenAI / LLM', 'Integrations', 'AI'], ['Machine Learning', 'Foundations', 'AI'], ['Pandas', 'Python data', 'Languages'], ['Streamlit', 'Data apps', 'Languages']
+    ['Python', 'Language', 'Languages'], ['SQL', 'Language', 'Languages'], ['PySpark', 'Distributed processing', 'Languages'], ['Oracle PL/SQL', 'Stored procedures', 'Languages'],
+    ['Snowflake', 'Including Cortex Code', 'Platforms'], ['Databricks', 'Lakehouse', 'Platforms'], ['AWS', 'S3, Redshift', 'Platforms'],
+    ['Data quality', 'Layered QC checks', 'Practices'], ['Business analytics', 'KPI and root-cause analysis', 'Practices'], ['GenAI / LLM integrations', 'AI-assisted automation', 'Practices']
   ];
-  var CATS = ['All', 'Warehouse', 'Processing', 'Automation', 'Cloud', 'Languages', 'AI', 'Analytics'];
+  var CATS = ['All', 'Languages', 'Platforms', 'Practices'];
   var tiles = $('#tiles'), sf = $('#skillFilters');
   SKILLS.forEach(function (s) {
     var t = el('div', 'tile'); t.dataset.cat = s[2];
@@ -138,20 +136,14 @@
     sf.appendChild(b);
   });
 
-  /* certifications */
-  var CERTS = [
-    ['Databricks Certified Data Engineer Associate', 'Databricks'], ['Full Stack Engineer Big Data', 'Accenture'], ['GenAI Automation Engineer', 'Accenture'],
-    ['AWS Certified Cloud Practitioner', 'Amazon Web Services'], ['Big Data with PySpark', 'DataCamp'],
-    ['Oracle Cloud Infrastructure Foundations 2021', 'Oracle'], ['Oracle Cloud AI Foundations 2023', 'Oracle'],
-    ['Data Analysis using Python', 'IBM Cognitive Class'], ['Business Metrics for Data-Driven Companies', 'Duke University'],
-    ['AI Tools Mastery Program', 'Be10x']
-  ];
-  var cg = $('#certGrid');
-  CERTS.forEach(function (c) {
-    var d = el('div', 'cert'); d.appendChild(el('b', null, c[0])); d.appendChild(el('span', null, c[1])); cg.appendChild(d);
-  });
-
   /* reading explorer */
+  var rToggle = $('#rToggle'), rAll = $('#rAll'), rLabel = rToggle.textContent;
+  rToggle.addEventListener('click', function () {
+    var show = rAll.hidden;
+    rAll.hidden = !show;
+    rToggle.setAttribute('aria-expanded', String(show));
+    rToggle.textContent = show ? 'Show less' : rLabel;
+  });
   var BOOKS = window.BOOKS || [];
   var STATUS = [['all', 'All'], ['read', 'Read'], ['reading', 'Reading now'], ['next', 'Up next']];
   var themes = ['all'];
@@ -219,27 +211,34 @@
   renderReading();
 
   /* hero QC card */
-  var CHECKS = [
-    ['Row counts', 'in range', 'dropped sharply', false],
-    ['Null values', 'no new gaps', 'no new gaps', false],
-    ['Distinct values', 'stable', 'stable', false],
-    ['Schema', 'unchanged', 'unchanged', false],
-    ['Trend', 'consistent', 'direction change', false]
+  // Dummy sample values only; [label, clean value, bad-refresh value or null]
+  var LAYERS = [
+    ['L1 structural', [['Schema drift', 'none', null], ['Column types', 'match', null], ['Rows vs prior', '+1.8%', '-37.4%']]],
+    ['L2 integrity', [['New nulls', '0', null], ['Duplicates', '0', '1,284'], ['Key uniqueness', '100%', null], ['Distinct shift', 'stable', null]]],
+    ['L3 business', [['KPI vs prior month', '+3.2%', '+41% swing'], ['Segment coverage', '12 / 12', null], ['Outliers vs trend', 'none', null]]]
   ];
-  var BAD_IDX = [0, 4];
   var qcBad = false, qcRows = $('#qcRows'), qcStatus = $('#qcStatus'), qcBtn = $('#qcBtn');
   function renderQC() {
     qcRows.textContent = '';
-    CHECKS.forEach(function (c, i) {
-      var bad = qcBad && BAD_IDX.indexOf(i) >= 0;
-      var li = el('li', bad ? 'bad' : '');
-      li.appendChild(el('span', 'mk', bad ? '\u2715' : '\u2713'));
-      li.appendChild(el('span', 'k', c[0]));
-      li.appendChild(el('span', 'v', bad ? c[2] : c[1]));
-      qcRows.appendChild(li);
+    LAYERS.forEach(function (layer) {
+      var failed = qcBad && layer[1].some(function (c) { return c[2]; });
+      var h = el('div', 'qc-layer' + (failed ? ' bad' : ''));
+      h.appendChild(el('span', null, layer[0]));
+      h.appendChild(el('span', 'qc-lstat', failed ? 'fail' : 'pass'));
+      qcRows.appendChild(h);
+      var ul = el('ul', 'qc-rows');
+      layer[1].forEach(function (c) {
+        var bad = qcBad && c[2];
+        var li = el('li', bad ? 'bad' : '');
+        li.appendChild(el('span', 'mk', bad ? '\u2715' : '\u2713'));
+        li.appendChild(el('span', 'k', c[0]));
+        li.appendChild(el('span', 'v', bad ? c[2] : c[1]));
+        ul.appendChild(li);
+      });
+      qcRows.appendChild(ul);
     });
     qcStatus.className = 'qc-status' + (qcBad ? ' held' : '');
-    qcStatus.textContent = qcBad ? 'Held. Caught before it reached the client.' : 'All checks passed. Cleared for delivery.';
+    qcStatus.textContent = qcBad ? 'Held. 3 checks failed across L1 to L3, caught before delivery.' : 'All 3 layers passed. Cleared for delivery.';
     qcBtn.textContent = qcBad ? 'Reset to a clean refresh' : 'Simulate a bad refresh';
   }
   if (qcRows) { qcBtn.addEventListener('click', function () { qcBad = !qcBad; renderQC(); }); renderQC(); }

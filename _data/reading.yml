@@ -1,0 +1,12 @@
+# Titles must match _data/books.yml exactly.
+
+# TODO: add the titles you are reading now; the block stays hidden while this is empty
+current: []
+
+favourites:
+  - "Deep Work"
+  - "The One Thing"
+  - "Atomic Habits"
+  - "The StorySelling Method"
+  - "Rich Dad Poor Dad"
+  - "The Alchemist"
