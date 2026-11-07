@@ -73,19 +73,19 @@
     { id: 'Transform', ic: '02', sub: 'SQL, Spark', title: 'Transform',
       text: 'Turning raw data into trusted models, fast and cheap to run.',
       points: ['ETL optimization that improved query efficiency by 40%', 'Removed redundant steps and repeated table rewrites in stored-procedure SQL', 'Merged compatible steps and right-sized warehouses to cut runtime and spend'],
-      tags: ['SQL', 'PySpark', 'dbt', 'Oracle PL/SQL', 'Databricks'] },
-    { id: 'Orchestrate', ic: '03', sub: 'Airflow, AI', title: 'Orchestrate',
+      tags: ['SQL', 'PySpark', 'Oracle PL/SQL', 'Process optimization'] },
+    { id: 'Automate', ic: '03', sub: 'Workflows, AI', title: 'Automate',
       text: 'Making runs repeatable so a delivery starts from one prompt, not a runbook.',
       points: ['Monthly delivery runbooks turned into reusable Snowflake Cortex Code skills', 'Phased runs that can be paused, checked and resumed', 'Next month\'s SQL generated from the previous month\'s template', 'Automated ETL and maintenance with PL/SQL and batch scripts, 50% more efficient'],
-      tags: ['Cortex Code', 'Airflow', 'Shell', 'Docker'] },
+      tags: ['Snowflake Cortex Code', 'Workflow automation', 'Shell', 'Docker'] },
     { id: 'Validate', ic: '04', sub: 'Quality', title: 'Validate',
       text: 'Catching problems before the client does.',
       points: ['Row count, null, distinct value and schema profiling after every run', 'Results saved as JSON summaries for traceability', 'Current vs previous refresh comparisons flag trend breaks, outliers and direction changes'],
       tags: ['Data quality', 'SQL', 'Python', 'JSON'] },
     { id: 'Deliver', ic: '05', sub: 'Serve', title: 'Deliver',
       text: 'Getting trustworthy data to the people who use it.',
-      points: ['Monthly deliveries on Snowflake with every AI-run step reviewed and approved by me', 'Root-cause analysis when a metric moves unexpectedly', 'Client-ready summaries with clear recommendations'],
-      tags: ['Snowflake', 'Redshift', 'Stakeholder delivery'] }
+      points: ['Monthly deliveries on Snowflake with every AI-run step reviewed and approved by me', 'KPI analysis and root-cause investigation when a metric moves unexpectedly', 'Client-ready summaries, executive updates and clear recommendations'],
+      tags: ['Snowflake', 'Redshift', 'KPI analysis', 'Stakeholder delivery'] }
   ];
   var pipe = $('#pipe'), detail = $('#pipeDetail');
   function showStage(i) {
@@ -115,13 +115,13 @@
 
   /* skills */
   var SKILLS = [
-    ['Snowflake', 'Warehouse', 'Warehouse'], ['Redshift', 'Warehouse', 'Warehouse'], ['Oracle 12c', 'Warehouse', 'Warehouse'], ['Databricks', 'Warehouse', 'Processing'],
+    ['Snowflake', 'Warehouse', 'Warehouse'], ['Redshift', 'Warehouse', 'Warehouse'], ['Oracle 12c', 'Warehouse', 'Warehouse'], 
     ['SQL', 'Language', 'Languages'], ['Python', 'Language', 'Languages'], ['PySpark', 'Processing', 'Processing'], ['PL/SQL', 'Language', 'Languages'], ['Shell scripting', 'Language', 'Languages'],
-    ['dbt', 'Transform', 'Processing'], ['Airflow', 'Orchestration', 'Orchestration'], ['AWS Data Pipeline', 'Orchestration', 'Cloud'], ['Cortex Code', 'AI-assisted DataOps', 'AI'],
+    ['AWS Data Pipeline', 'Orchestration', 'Cloud'], ['Snowflake Cortex Code', 'AI-assisted DataOps', 'AI'], ['Workflow automation', 'DataOps', 'Automation'], ['Data quality', 'Controls', 'Automation'], ['KPI analysis', 'Analytics', 'Analytics'], ['Root-cause analysis', 'Analytics', 'Analytics'], ['Business analytics', 'Analytics', 'Analytics'], ['Process optimization', 'Efficiency', 'Processing'],
     ['AWS S3', 'Storage', 'Cloud'], ['AWS', 'Cloud', 'Cloud'], ['Docker', 'Containers', 'Cloud'],
     ['GenAI / LLM', 'Integrations', 'AI'], ['Machine Learning', 'Foundations', 'AI'], ['Pandas', 'Python data', 'Languages'], ['Streamlit', 'Data apps', 'Languages']
   ];
-  var CATS = ['All', 'Warehouse', 'Processing', 'Orchestration', 'Cloud', 'Languages', 'AI'];
+  var CATS = ['All', 'Warehouse', 'Processing', 'Automation', 'Cloud', 'Languages', 'AI', 'Analytics'];
   var tiles = $('#tiles'), sf = $('#skillFilters');
   SKILLS.forEach(function (s) {
     var t = el('div', 'tile'); t.dataset.cat = s[2];
