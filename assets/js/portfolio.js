@@ -218,23 +218,31 @@
   });
   renderReading();
 
-  /* hero terminal */
-  var LINES = [
-    ['$ ./run_delivery --phase all', 'dim'], ['\u2713 ingest      sources landed', 'ok'], ['\u2713 transform   models built', 'ok'],
-    ['\u2713 validate    counts, nulls, schema', 'ok'], ['\u2713 compare     vs previous refresh', 'ok'], ['\u2713 review      approved by human', 'ok'], ['$ delivered. ready for client.', 'dim']
+  /* hero QC card */
+  var CHECKS = [
+    ['Row counts', 'in range', 'dropped sharply', false],
+    ['Null values', 'no new gaps', 'no new gaps', false],
+    ['Distinct values', 'stable', 'stable', false],
+    ['Schema', 'unchanged', 'unchanged', false],
+    ['Trend', 'consistent', 'direction change', false]
   ];
-  var out = $('#termOut');
-  if (out) {
-    if (reduce) { LINES.forEach(function (l) { var d = el('div', l[1], l[0]); out.appendChild(d); }); }
-    else {
-      var li = 0;
-      (function next() {
-        if (li >= LINES.length) { setTimeout(function () { out.textContent = ''; li = 0; next(); }, 4000); return; }
-        out.appendChild(el('div', LINES[li][1], LINES[li][0])); li++;
-        setTimeout(next, 750);
-      })();
-    }
+  var BAD_IDX = [0, 4];
+  var qcBad = false, qcRows = $('#qcRows'), qcStatus = $('#qcStatus'), qcBtn = $('#qcBtn');
+  function renderQC() {
+    qcRows.textContent = '';
+    CHECKS.forEach(function (c, i) {
+      var bad = qcBad && BAD_IDX.indexOf(i) >= 0;
+      var li = el('li', bad ? 'bad' : '');
+      li.appendChild(el('span', 'mk', bad ? '\u2715' : '\u2713'));
+      li.appendChild(el('span', 'k', c[0]));
+      li.appendChild(el('span', 'v', bad ? c[2] : c[1]));
+      qcRows.appendChild(li);
+    });
+    qcStatus.className = 'qc-status' + (qcBad ? ' held' : '');
+    qcStatus.textContent = qcBad ? 'Held. Caught before it reached the client.' : 'All checks passed. Cleared for delivery.';
+    qcBtn.textContent = qcBad ? 'Reset to a clean refresh' : 'Simulate a bad refresh';
   }
+  if (qcRows) { qcBtn.addEventListener('click', function () { qcBad = !qcBad; renderQC(); }); renderQC(); }
 
   /* copy email */
   var cm = $('#copyMail');
