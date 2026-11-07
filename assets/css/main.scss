@@ -114,3 +114,64 @@
   font-size: 0.95em;
   color: #ccc;
 }
+
+/* ── Experience highlights ──────────────────────────────── */
+.highlight-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+  margin: 0.8em 0 1em;
+}
+
+.highlight {
+  border: 1px solid rgba(255,255,255,0.1);
+  border-top: 2px solid #64dcb4;
+  border-radius: 6px;
+  padding: 0.8em 1em;
+  background: rgba(255,255,255,0.03);
+
+  h4 { margin: 0 0 0.4em; font-size: 0.95em; color: #aef0d8; }
+  p { margin: 0; font-size: 0.82em; }
+}
+
+/* ── Reading list ───────────────────────────────────────── */
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 1.5em;
+}
+
+.stat {
+  strong { display: block; font-size: 1.8em; line-height: 1.1; color: #aef0d8; }
+  span { font-size: 0.8em; color: #999; }
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-left: 3px solid #64dcb4;
+  border-radius: 6px;
+  padding: 0.6em 0.9em;
+  background: rgba(255,255,255,0.03);
+  font-size: 0.85em;
+
+  span { color: #aaa; font-size: 0.9em; }
+}
+
+.book-card--now { border-left-color: #f5c26b; }
+.book-card--next { border-left-color: rgba(255,255,255,0.25); }
+.book-theme { font-size: 0.75em; color: #777; font-style: normal; }
+.book-stars { color: #f5c26b !important; letter-spacing: 1px; }
+
+@media (max-width: 480px) {
+  .skill-label { min-width: 100%; }
+}

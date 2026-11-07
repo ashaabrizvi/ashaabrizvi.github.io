@@ -3,25 +3,53 @@ title: Ashaab Rizvi
 layout: single
 author_profile: true
 toc: true
-excerpt: 'Highly skilled, analytical, and experienced Data Engineer with a relentless drive for innovation and a commitment to excellence.'
+excerpt: 'Data engineer building AI-assisted pipelines and consumer intelligence on Snowflake and AWS.'
 header:
  overlay_image: /assets/images/display.jpg
- overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+ overlay_filter: 0.5
 ---
 
 <div class="summary-callout">
-Data Engineer at Accenture with 3+ years of experience building robust AWS data pipelines, optimizing ETL processes, and delivering data-driven insights across healthcare and commercial domains.
+Data engineer turned DataOps associate, building AI-assisted pipelines and SKU-level consumer intelligence on transactional data at scale. I automate delivery, validation and insight generation on Snowflake.
 </div>
 
 <div class="cta-row">
   <a href="mailto:ashaabrizvi09@gmail.com" class="btn btn--primary">Contact Me</a>
-  <a href="https://linkedin.com/in/ashaabrizvi" class="btn btn--inverse" target="_blank">LinkedIn</a>
-  <a href="https://github.com/ashaabrizvi" class="btn btn--inverse" target="_blank">GitHub</a>
+  <a href="https://linkedin.com/in/ashaabrizvi" class="btn btn--inverse" target="_blank" rel="noopener">LinkedIn</a>
+  <a href="https://github.com/ashaabrizvi" class="btn btn--inverse" target="_blank" rel="noopener">GitHub</a>
+  <a href="{{ site.baseurl }}/readinglist/" class="btn btn--inverse">What I'm Reading</a>
 </div>
 
 # Work Experience
 
-**Data Engineer** - [Accenture](https://www.accenture.com/) *(01/2022-Present)*
+**Associate, DataOps Estimations** - Bain Capability Network *(06/2025 - Present)*
+
+<div class="highlight-list">
+  <div class="highlight"><h4>AI-assisted delivery automation</h4><p>Turned multi-step monthly delivery runbooks into reusable skills using Snowflake Cortex Code, so a full run starts from one prompt. Added phased runs that can be paused, checked and resumed, and automated creation of next month's SQL from the previous month's template.</p></div>
+  <div class="highlight"><h4>Automated data quality</h4><p>Post-run checks for row counts, nulls, distinct values and schema profiling, stored as JSON summaries. Current vs previous refresh comparisons flag trend breaks, outliers and direction changes before anything reaches the client.</p></div>
+  <div class="highlight"><h4>SQL and cost optimization</h4><p>Reviewed pipeline and stored-procedure SQL, removed redundant steps and repeated table rewrites, and merged compatible steps. Analyzed slow queries and right-sized warehouses to cut runtime and compute spend.</p></div>
+  <div class="highlight"><h4>Root-cause analysis</h4><p>Investigated unexpected KPI movements (sales, orders, users) by segment, fulfilment type and basket size. Cross-checked sources to separate real behavior change from data-capture artifacts, and used weekly views to pinpoint when a shift began.</p></div>
+  <div class="highlight"><h4>Insights and communication</h4><p>Converted query results into client-ready weekly and monthly summaries, executive updates and slide storylines with clear recommendations.</p></div>
+</div>
+
+<div class="project-tech">
+  <span class="skill-badge">Snowflake</span>
+  <span class="skill-badge">Cortex Code</span>
+  <span class="skill-badge">SQL</span>
+  <span class="skill-badge">Python</span>
+  <span class="skill-badge">PySpark</span>
+  <span class="skill-badge">dbt</span>
+  <span class="skill-badge">Airflow</span>
+  <span class="skill-badge">Databricks</span>
+  <span class="skill-badge">AWS</span>
+  <span class="skill-badge">GenAI / LLM</span>
+</div>
+
+*Human in the loop: AI proposes and runs steps, I review and approve every output, within existing Snowflake roles and access controls.*
+
+**Next:** scheduling recurring pipelines and QC as unattended automations, extending skills to more delivery feeds, and dashboards that track QC results over time.
+
+**Data Engineer** - [Accenture](https://www.accenture.com/) *(01/2022 - 05/2025)*
 
 - Designed and executed robust data processing pipelines within AWS environments, utilizing Python, Redshift, and AWS Data Pipeline to handle over 20 TBs of data.
 - Enhanced data security by securing API calls with token-based authentication, ensuring the integrity of data transactions to Amazon Redshift databases.
@@ -44,6 +72,11 @@ Data Engineer at Accenture with 3+ years of experience building robust AWS data 
 
 <div class="skill-group">
   <span class="skill-label">Data Engineering</span>
+  <span class="skill-badge">Snowflake</span>
+  <span class="skill-badge">dbt</span>
+  <span class="skill-badge">Airflow</span>
+  <span class="skill-badge">PySpark</span>
+  <span class="skill-badge">Databricks</span>
   <span class="skill-badge">Python</span>
   <span class="skill-badge">PL/SQL</span>
   <span class="skill-badge">ETL Tools</span>
@@ -96,36 +129,13 @@ Data Engineer at Accenture with 3+ years of experience building robust AWS data 
 
 # Projects
 
-<div class="project-card">
-  <h3>Data Integration for Healthcare Vendor</h3>
-  <p><strong>Challenge:</strong> Integrate and manage massive healthcare datasets into a streamlined AWS environment while maintaining strict data security and compliance.</p>
-  <p><strong>Solution:</strong> Developed scalable data pipelines on AWS with token-based API authentication, and implemented automated ETL workflows to handle continuous data ingestion into Redshift.</p>
-  <p><strong>Impact:</strong> Enhanced data accessibility and integrity, supporting critical healthcare decisions at enterprise scale.</p>
-  <div class="project-impact">20TB+ data managed &nbsp;|&nbsp; 40% query efficiency improvement</div>
-  <div class="project-tech">
-    <span class="skill-badge">AWS S3</span>
-    <span class="skill-badge">Redshift</span>
-    <span class="skill-badge">Python</span>
-    <span class="skill-badge">ETL</span>
-    <span class="skill-badge">Token Auth</span>
-    <span class="skill-badge">AWS Data Pipeline</span>
-  </div>
-</div>
+See the full write-ups on the [Projects page]({{ site.baseurl }}/projects/): AI-assisted delivery automation, automated data quality, healthcare data integration on AWS, and commercial sales analytics.
 
-<div class="project-card">
-  <h3>Commercial Sales Data Analytics</h3>
-  <p><strong>Challenge:</strong> Provide actionable insights from complex, multi-source sales data to drive business strategy and identify underperforming segments.</p>
-  <p><strong>Solution:</strong> Analyzed and visualized sales data using Python and Power BI to uncover underlying trends, KPIs, and performance metrics across regions and product lines.</p>
-  <p><strong>Impact:</strong> Delivered targeted insights that directly informed strategy adjustments, resulting in measurable business growth.</p>
-  <div class="project-impact">15% increase in sales through data-driven targeting</div>
-  <div class="project-tech">
-    <span class="skill-badge">Power BI</span>
-    <span class="skill-badge">Python</span>
-    <span class="skill-badge">Pandas</span>
-    <span class="skill-badge">Streamlit</span>
-    <span class="skill-badge">Matplotlib</span>
-  </div>
-</div>
+---
+
+# Reading
+
+I read widely across mindset, money, ideas and spirit. Right now: *The Courage to Be Disliked* and *The 48 Laws of Power*. Browse the [full reading list]({{ site.baseurl }}/readinglist/).
 
 ---
 
