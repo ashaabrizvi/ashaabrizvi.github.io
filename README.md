@@ -1,6 +1,6 @@
 # ashaabrizvi.com
 
-Personal portfolio of Ashaab Rizvi, DataOps Engineer. Live at [ashaabrizvi.com](https://ashaabrizvi.com).
+Personal portfolio of Ashaab Rizvi, Associate, DataOps & Business Analytics. Live at [ashaabrizvi.com](https://ashaabrizvi.com).
 
 ## Stack
 
@@ -21,5 +21,5 @@ Then open http://localhost:4000.
 ## Common updates
 
 - **Resume:** add `assets/resume/Ashaab_Rizvi_Resume.pdf`, then set `resume_ready: true` in `_config.yml`
-- **Certifications:** fill in `year` and `verify_url` in `_data/certs.yml`
+- **Certifications:** add or edit entries in `_data/certs.yml` (tier: featured, more or other)
 - **Reading:** edit `_data/reading.yml`; new books go in `_data/books.yml`

@@ -1,32 +1,16 @@
 # tier: featured | more | other
-# year and verify_url are optional; each one shows only once it is filled in.
-# Set hidden: false on an entry to publish it.
 
 - name: "Databricks Certified Data Engineer Associate"
   issuer: "Databricks"
   tier: featured
-  year: ""        # TODO
-  verify_url: ""  # TODO
 
 - name: "AWS Certified Cloud Practitioner"
   issuer: "Amazon Web Services"
   tier: featured
-  year: ""        # TODO
-  verify_url: ""  # TODO
 
 - name: "Oracle Cloud AI Foundations 2023 Associate"
   issuer: "Oracle"
   tier: featured
-  year: ""        # TODO
-  verify_url: ""  # TODO
-
-# TODO: Anthropic Claude certifications; confirm which to show, then fill in and set hidden: false
-- name: "Anthropic Claude certification"
-  issuer: "Anthropic"
-  tier: featured
-  year: ""
-  verify_url: ""
-  hidden: true
 
 - name: "Full Stack Engineer Big Data"
   issuer: "Accenture"

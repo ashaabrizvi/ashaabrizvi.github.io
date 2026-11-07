@@ -1,5 +1,5 @@
-title: "Ashaab Rizvi | DataOps Engineer | Snowflake, SQL, Analytics"
-description: "Ashaab Rizvi is a DataOps Engineer who automates data quality, analytics workflows and business analytics delivery using Snowflake, SQL, Python and AI-assisted automation."
+title: "Ashaab Rizvi | Associate, DataOps & Business Analytics | Snowflake, SQL"
+description: "Ashaab Rizvi, Associate, DataOps & Business Analytics at Bain & Company, automates data quality, analytics workflows and business analytics delivery using Snowflake, SQL, Python and AI-assisted automation."
 url: "https://ashaabrizvi.com"
 baseurl: ""
 timezone: Asia/Kolkata
@@ -10,8 +10,8 @@ email: "ashaabrizvi09@gmail.com"
 # TODO: set to true after uploading assets/resume/Ashaab_Rizvi_Resume.pdf
 resume_ready: false
 
-# TODO: paste the Kaggle profile URL here to show a Kaggle button in Contact
-kaggle_url: ""
+# Leave empty to hide the Kaggle button in Contact
+kaggle_url: "https://kaggle.com/ashaabrizvi"
 
 # TODO: GoatCounter site code (the "ashaab" in ashaab.goatcounter.com); analytics stay off while empty
 goatcounter_code: ""

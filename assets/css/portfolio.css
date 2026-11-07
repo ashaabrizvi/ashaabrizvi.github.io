@@ -241,8 +241,6 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
 .cert-feature{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px;margin-bottom:12px}
 .cert.featured{padding:20px;border-left-width:4px;background:color-mix(in srgb,var(--a1) 7%,var(--card))}
 .cert.featured b{font-size:15px}
-.cert .verify{display:inline-block;margin-top:8px;font:600 12px var(--mono);color:var(--a1);text-decoration:none}
-.cert .verify:hover{text-decoration:underline}
 .other-learning{margin-top:14px;border:1px solid var(--card-b);border-radius:12px;padding:10px 16px;background:var(--card)}
 .other-learning summary{cursor:pointer;font-weight:600;font-size:14px;color:var(--muted)}
 .other-learning ul{margin:10px 0 4px;padding-left:18px;font-size:14px}
@@ -267,4 +265,9 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
   .hero h1{font-size:clamp(3.6rem,6.4vw,5.2rem)}
   .hero .term{grid-column:2;grid-row:1 / span 5;position:static;align-self:center;width:auto}
   .hero .lead{max-width:none}
+}
+
+/* QC card on phones and tablets: below the stats */
+@media (max-width:1019px){
+  .hero .term{display:block;position:static;width:100%;max-width:420px;order:10;margin-top:36px}
 }
