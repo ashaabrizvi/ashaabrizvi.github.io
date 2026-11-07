@@ -1,0 +1,41 @@
+# tier: featured | more | other
+
+- name: "Databricks Certified Data Engineer Associate"
+  issuer: "Databricks"
+  tier: featured
+
+- name: "AWS Certified Cloud Practitioner"
+  issuer: "Amazon Web Services"
+  tier: featured
+
+- name: "Oracle Cloud AI Foundations 2023 Associate"
+  issuer: "Oracle"
+  tier: featured
+
+- name: "Full Stack Engineer Big Data"
+  issuer: "Accenture"
+  tier: more
+
+- name: "GenAI Automation Engineer"
+  issuer: "Accenture"
+  tier: more
+
+- name: "Big Data with PySpark"
+  issuer: "DataCamp"
+  tier: more
+
+- name: "Oracle Cloud Infrastructure Foundations 2021 Associate"
+  issuer: "Oracle"
+  tier: more
+
+- name: "Data Analysis using Python"
+  issuer: "IBM Cognitive Class"
+  tier: other
+
+- name: "Business Metrics for Data-Driven Companies"
+  issuer: "Duke University"
+  tier: other
+
+- name: "AI Tools Mastery Program"
+  issuer: "Be10x"
+  tier: other
