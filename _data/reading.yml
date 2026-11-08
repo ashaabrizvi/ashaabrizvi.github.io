@@ -1,7 +1,8 @@
 # Titles must match _data/books.yml exactly.
 
-# TODO: add the titles you are reading now; the block stays hidden while this is empty
-current: []
+current:
+  - "The Courage to Be Disliked"
+  - "The 48 Laws of Power"
 
 favourites:
   - "Deep Work"
