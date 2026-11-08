@@ -217,31 +217,124 @@
     ['L2 integrity', [['New nulls', '0', null], ['Duplicates', '0', '1,284'], ['Key uniqueness', '100%', null], ['Distinct shift', 'stable', null]]],
     ['L3 business', [['KPI vs prior month', '+3.2%', '+41% swing'], ['Segment coverage', '12 / 12', null], ['Outliers vs trend', 'none', null]]]
   ];
-  var qcBad = false, qcRows = $('#qcRows'), qcStatus = $('#qcStatus'), qcBtn = $('#qcBtn');
-  function renderQC() {
+  var qcBad = false, qcRunning = false, qcRows = $('#qcRows'), qcStatus = $('#qcStatus'), qcBtn = $('#qcBtn');
+  function buildQC() {
     qcRows.textContent = '';
-    LAYERS.forEach(function (layer) {
-      var failed = qcBad && layer[1].some(function (c) { return c[2]; });
-      var h = el('div', 'qc-layer' + (failed ? ' bad' : ''));
+    return LAYERS.map(function (layer) {
+      var h = el('div', 'qc-layer');
       h.appendChild(el('span', null, layer[0]));
-      h.appendChild(el('span', 'qc-lstat', failed ? 'fail' : 'pass'));
+      var ls = el('span', 'qc-lstat', 'queued');
+      h.appendChild(ls);
       qcRows.appendChild(h);
       var ul = el('ul', 'qc-rows');
-      layer[1].forEach(function (c) {
-        var bad = qcBad && c[2];
-        var li = el('li', bad ? 'bad' : '');
-        li.appendChild(el('span', 'mk', bad ? '\u2715' : '\u2713'));
-        li.appendChild(el('span', 'k', c[0]));
-        li.appendChild(el('span', 'v', bad ? c[2] : c[1]));
+      var rows = layer[1].map(function (c) {
+        var li = el('li', 'pending');
+        var mk = el('span', 'mk', '\u00b7'), v = el('span', 'v', '\u2026');
+        li.appendChild(mk); li.appendChild(el('span', 'k', c[0])); li.appendChild(v);
         ul.appendChild(li);
+        return { li: li, mk: mk, v: v, c: c };
       });
       qcRows.appendChild(ul);
+      return { head: h, stat: ls, rows: rows };
     });
-    qcStatus.className = 'qc-status' + (qcBad ? ' held' : '');
-    qcStatus.textContent = qcBad ? 'Held. 3 checks failed across L1 to L3, caught before delivery.' : 'All 3 layers passed. Cleared for delivery.';
-    qcBtn.textContent = qcBad ? 'Reset to a clean refresh' : 'Simulate a bad refresh';
   }
-  if (qcRows) { qcBtn.addEventListener('click', function () { qcBad = !qcBad; renderQC(); }); renderQC(); }
+  function runQC() {
+    if (qcRunning) return;
+    qcRunning = true; qcBtn.disabled = true;
+    var layers = buildQC(), steps = [];
+    qcStatus.className = 'qc-status run'; qcStatus.textContent = 'Running checks\u2026';
+    layers.forEach(function (L) {
+      var failed = false;
+      steps.push(function () { L.stat.textContent = 'running'; L.stat.className = 'qc-lstat run'; });
+      L.rows.forEach(function (r) {
+        steps.push(function () {
+          var bad = qcBad && r.c[2];
+          if (bad) failed = true;
+          r.li.className = 'done' + (bad ? ' bad' : '');
+          r.mk.textContent = bad ? '\u2715' : '\u2713';
+          r.v.textContent = bad ? r.c[2] : r.c[1];
+        });
+      });
+      steps.push(function () {
+        L.stat.className = 'qc-lstat'; L.stat.textContent = failed ? 'fail' : 'pass';
+        L.head.className = 'qc-layer' + (failed ? ' bad' : '');
+      });
+    });
+    steps.push(function () {
+      qcStatus.className = 'qc-status' + (qcBad ? ' held' : '');
+      qcStatus.textContent = qcBad ? 'Held. 3 checks failed across L1 to L3, caught before delivery.' : 'All 3 layers passed. Cleared for delivery.';
+      qcBtn.textContent = qcBad ? 'Reset to a clean refresh' : 'Simulate a bad refresh';
+      qcBtn.disabled = false; qcRunning = false;
+    });
+    if (reduce) { steps.forEach(function (f) { f(); }); return; }
+    var i = 0;
+    (function next() { if (i < steps.length) { steps[i++](); setTimeout(next, 150); } })();
+  }
+  if (qcRows) {
+    qcBtn.addEventListener('click', function () { qcBad = !qcBad; runQC(); });
+    buildQC();
+    qcStatus.textContent = 'Waiting to run\u2026';
+    qcBtn.disabled = true;
+    var qcIO = new IntersectionObserver(function (es) {
+      if (es[0].isIntersecting) { qcIO.disconnect(); setTimeout(runQC, reduce ? 0 : 500); }
+    }, { threshold: 0.3 });
+    qcIO.observe($('#qc'));
+  }
+
+  /* hero line types itself out */
+  var lead = $('.hero .lead');
+  if (lead && !reduce) {
+    var full = lead.textContent;
+    var typed = el('span', 'typed');
+    typed.setAttribute('aria-hidden', 'true');
+    while (lead.firstChild) typed.appendChild(lead.firstChild);
+    lead.appendChild(el('span', 'sr-only', full));
+    lead.appendChild(typed);
+    lead.style.minHeight = lead.offsetHeight + 'px';
+    var walker = document.createTreeWalker(typed, NodeFilter.SHOW_TEXT), tn = [], node;
+    while ((node = walker.nextNode())) { tn.push([node, node.data]); node.data = ''; }
+    var caret = el('span', 'caret');
+    typed.appendChild(caret);
+    var ti = 0, ci = 0;
+    setTimeout(function type() {
+      if (ti >= tn.length) { setTimeout(function () { caret.remove(); }, 1600); return; }
+      var t = tn[ti];
+      t[0].data = t[1].slice(0, ++ci);
+      if (t[0].parentNode !== typed) t[0].parentNode.after(caret); else t[0].after(caret);
+      if (ci >= t[1].length) { ti++; ci = 0; }
+      setTimeout(type, 16);
+    }, 350);
+  }
+
+  /* data packets through the architecture diagram */
+  var flow = $('.arch-flow');
+  if (flow && !reduce) {
+    var nodes = $$('.node', flow), gateLayers = $$('.layers > span', flow), flowVisible = false;
+    nodes.forEach(function (n, i) { if (i < nodes.length - 1) n.appendChild(el('span', 'pkt')); });
+    new IntersectionObserver(function (es) { flowVisible = es[0].isIntersecting; }, { threshold: 0.2 }).observe(flow);
+    var wait = function (ms) { return new Promise(function (r) { setTimeout(r, ms); }); };
+    (async function loop() {
+      for (;;) {
+        if (!flowVisible) { await wait(400); continue; }
+        flow.classList.add('running');
+        for (var k = 0; k < nodes.length; k++) {
+          nodes[k].classList.add('lit');
+          if (nodes[k].classList.contains('gate')) {
+            for (var g = 0; g < gateLayers.length; g++) { await wait(320); gateLayers[g].classList.add('lit'); }
+          }
+          await wait(420);
+          var p = nodes[k].querySelector('.pkt');
+          if (p) { p.classList.remove('go'); void p.offsetWidth; p.classList.add('go'); await wait(520); }
+          if (k < nodes.length - 1) nodes[k].classList.remove('lit');
+        }
+        await wait(1400);
+        nodes.forEach(function (n) { n.classList.remove('lit'); });
+        gateLayers.forEach(function (s) { s.classList.remove('lit'); });
+        flow.classList.remove('running');
+        await wait(700);
+      }
+    })();
+  }
 
   /* copy email */
   var cm = $('#copyMail');
