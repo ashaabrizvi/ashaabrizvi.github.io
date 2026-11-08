@@ -7,8 +7,8 @@ timezone: Asia/Kolkata
 linkedin_url: "https://linkedin.com/in/ashaabrizvi"
 email: "ashaabrizvi09@gmail.com"
 
-# TODO: set to true after uploading assets/resume/Ashaab_Rizvi_Resume.pdf
-resume_ready: false
+# Shows the Resume button; the file lives at assets/resume/Ashaab_Rizvi_Resume.pdf
+resume_ready: true
 
 # Leave empty to hide the Kaggle button in Contact
 kaggle_url: "https://kaggle.com/ashaabrizvi"
