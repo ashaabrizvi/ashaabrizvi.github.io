@@ -271,3 +271,9 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
 @media (max-width:1019px){
   .hero .term{display:block;position:static;width:100%;max-width:420px;order:10;margin-top:36px}
 }
+
+/* nav links scroll on small screens: fade the clipped edge */
+@media (max-width:720px){
+  .nav{gap:8px}
+  .nav-links{-webkit-mask-image:linear-gradient(90deg,#000 75%,transparent);mask-image:linear-gradient(90deg,#000 75%,transparent);padding-right:16px}
+}
