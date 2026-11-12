@@ -115,11 +115,12 @@
 
   /* skills */
   var SKILLS = [
-    ['Python', 'Language', 'Languages'], ['SQL', 'Language', 'Languages'], ['PySpark', 'Distributed processing', 'Languages'], ['Oracle PL/SQL', 'Stored procedures', 'Languages'],
-    ['Snowflake', 'Including Cortex Code', 'Platforms'], ['Databricks', 'Lakehouse', 'Platforms'], ['AWS', 'S3, Redshift', 'Platforms'],
-    ['Data quality', 'Layered QC checks', 'Practices'], ['Business analytics', 'KPI and root-cause analysis', 'Practices'], ['GenAI / LLM integrations', 'AI-assisted automation', 'Practices']
+    ['KPI and root-cause analysis', 'Segment, trend and variance', 'Analytics'], ['Executive storytelling', 'Client-ready summaries', 'Analytics'], ['Excel', 'Analysis and modelling', 'Analytics'], ['PowerPoint', 'Storylines and decks', 'Analytics'],
+    ['Stakeholder communication', 'Client deliverables', 'Consulting'], ['Structured problem solving', 'Hypotheses to answers', 'Consulting'],
+    ['SQL', 'CTEs, window functions', 'Data'], ['Python', 'Pandas', 'Data'], ['PySpark', 'Distributed processing', 'Data'], ['Snowflake', 'Including Cortex Code', 'Data'], ['Databricks', 'Lakehouse', 'Data'], ['AWS', 'S3, Redshift, EC2', 'Data'], ['Airflow', 'Orchestration', 'Data'], ['Oracle PL/SQL', 'Stored procedures', 'Data'],
+    ['Data quality', 'Layered QC checks', 'Quality and AI'], ['GenAI / LLM integrations', 'AI-assisted automation', 'Quality and AI']
   ];
-  var CATS = ['All', 'Languages', 'Platforms', 'Practices'];
+  var CATS = ['All', 'Analytics', 'Consulting', 'Data', 'Quality and AI'];
   var tiles = $('#tiles'), sf = $('#skillFilters');
   SKILLS.forEach(function (s) {
     var t = el('div', 'tile'); t.dataset.cat = s[2];
