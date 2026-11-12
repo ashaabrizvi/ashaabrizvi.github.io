@@ -1,6 +1,6 @@
 # ashaabrizvi.com
 
-Personal portfolio of Ashaab Rizvi, Associate, DataOps & Business Analytics. Live at [ashaabrizvi.com](https://ashaabrizvi.com).
+Personal portfolio of Ashaab Rizvi, Associate, Business Analytics at Bain & Company. Live at [ashaabrizvi.com](https://ashaabrizvi.com).
 
 ## Stack
 
