@@ -50,7 +50,7 @@ layout: null
     <a href="#pipeline">Process</a>
     <a href="#experience">Experience</a>
     <a href="#skills">Skills</a>
-    <a href="#certs">Certifications</a>
+    <a href="#certs">Credentials</a>
     <a href="#reading">Reading</a>
     <a href="#contact">Contact</a>
   </nav>
@@ -65,7 +65,7 @@ layout: null
 <section class="hero">
   <p class="eyebrow"><span class="pulse"></span> Associate, DataOps &amp; Business Analytics at Bain &amp; Company</p>
   <h1>Ashaab <span class="grad">Rizvi</span></h1>
-  <p class="lead">I automate data quality, analytics delivery and business analytics on large-scale transactional data with <b>Snowflake</b>, <b>SQL</b> and AI-assisted automation.</p>
+  <p class="lead">I turn large-scale retail and consumer data into client-ready insights: KPI diagnostics, executive storylines and automated, quality-checked delivery with <b>Snowflake</b>, <b>SQL</b> and AI-assisted automation.</p>
   <div class="cta">
     <a class="btn primary" href="#work">See my work</a>
     {% comment %} TODO: resume button shows once resume_ready is true in _config.yml {% endcomment %}
@@ -80,7 +80,7 @@ layout: null
   </div>
   <dl class="stats">
     <div><dt data-count="4" data-suffix="+">0</dt><dd>years in data</dd></div>
-    <div><dt data-count="10" data-suffix="+">0</dt><dd>deliveries automated</dd></div>
+    <div><dt data-count="10" data-suffix="+">0</dt><dd>clients supported</dd></div>
     <div><dt data-count="60" data-prefix="~" data-suffix="%">0</dt><dd>faster turnaround</dd></div>
   </dl>
 </section>
@@ -89,6 +89,15 @@ layout: null
   <div class="section-head"><span class="kicker">01 / Selected work</span><h2>Case studies</h2></div>
   <p class="sub">Client work is confidential, so these are anonymized. No client names, tables or data.</p>
   <div class="cases">
+    <article class="case card spot">
+      <span class="case-tag">Analytics</span>
+      <h3>KPI root-cause diagnosis</h3>
+      <dl>
+        <dt>Problem</dt><dd>Sudden swings in sales, orders and customer KPIs: a real business trend, or a data-capture issue?</dd>
+        <dt>What I did</dt><dd>Source reconciliation with segment, fulfilment and basket-size breakdowns, and weekly versus monthly views to find when a shift began.</dd>
+        <dt>Result</dt><dd class="res">A clear call on real trend versus capture issue, turned into client-ready summaries and executive storylines.</dd>
+      </dl>
+    </article>
     <article class="case card spot">
       <span class="case-tag">Automation</span>
       <h3>Automated monthly delivery engine</h3>
@@ -105,15 +114,6 @@ layout: null
         <dt>Problem</dt><dd>Schema changes, nulls, duplicates and gaps could slip into client outputs unnoticed.</dd>
         <dt>What I built</dt><dd>Checks run every cycle in three layers: structural, integrity and business reasonableness, with JSON summaries compared against the prior cycle.</dd>
         <dt>Result</dt><dd class="res">Schema drift, nulls, duplicates, missing periods and category shifts caught before delivery for 10+ clients.</dd>
-      </dl>
-    </article>
-    <article class="case card spot">
-      <span class="case-tag">Analytics</span>
-      <h3>KPI root-cause diagnosis</h3>
-      <dl>
-        <dt>Problem</dt><dd>Sudden swings in sales, orders and customer KPIs: a real business trend, or a data-capture issue?</dd>
-        <dt>What I built</dt><dd>Source reconciliation with segment, fulfilment and basket-size breakdowns, and weekly versus monthly views to find when a shift began.</dd>
-        <dt>Result</dt><dd class="res">A clear call on real trend versus capture issue, turned into client-ready summaries and executive storylines.</dd>
       </dl>
     </article>
   </div>
@@ -148,18 +148,16 @@ layout: null
         <div><h3>Associate, DataOps &amp; Business Analytics</h3><p class="org">Bain &amp; Company</p></div>
         <span class="when">Jun 2025 to Present</span>
       </header>
-      <p class="impact">Automated 10+ monthly client deliveries with a 3-layer QC framework, cutting turnaround by ~60%.</p>
+      <p class="impact">Turned KPI movements into client-ready insights for 10+ clients, on monthly deliveries automated with a 3-layer QC framework that cut turnaround by ~60%.</p>
       <div class="chips mono"><span>Snowflake</span><span>Cortex Code</span><span>SQL</span><span>Python</span><span>PySpark</span><span>Data quality</span><span>Business analytics</span><span>KPI analysis</span><span>GenAI</span></div>
       <div class="acc">
         <button class="acc-item" aria-expanded="false"><span>Details</span><i></i></button>
         <div class="acc-body"><div><ul>
-          <li>Automated 10+ recurring monthly deliveries with Snowflake Cortex Code, using phased runs with checkpoints and resumability.</li>
-          <li>Generated each month's SQL workflows from reusable templates, cutting turnaround by ~60%.</li>
-          <li>Built a 3-layer QC framework run every cycle: structural, integrity and KPI-variance checks with JSON summaries compared across cycles.</li>
-          <li>Caught schema drift, nulls, duplicates, missing periods and category shifts before delivery, keeping outputs clean for 10+ clients.</li>
-          <li>Optimized SQL and stored procedures, removing redundant table rewrites and reducing warehouse compute.</li>
-          <li>Diagnosed KPI swings in sales, orders and customers by reconciling sources to separate real trends from data-capture issues.</li>
-          <li>Turned findings into weekly and monthly client-ready summaries and executive storylines.</li>
+          <li>Diagnosed KPI swings in sales, orders and customers by segment, fulfilment type and basket size, reconciling sources to separate real business trends from data-capture issues.</li>
+          <li>Turned findings into weekly and monthly client-ready performance summaries and executive storylines on trends, drivers and recommendations.</li>
+          <li>Automated 10+ recurring monthly client deliveries with Snowflake Cortex Code and templated SQL (phased, checkpointed, resumable runs), cutting turnaround by ~60% and freeing time for analysis.</li>
+          <li>Designed a 3-layer QC framework (structural, integrity, KPI variance) run every cycle, catching schema drift, nulls, duplicates and missing periods before delivery for 10+ clients.</li>
+          <li>Tuned SQL and stored procedures with query profiles, removing redundant rewrites and cutting compute cost.</li>
         </ul></div></div>
       </div>
       <p class="note"><b>Ways of working.</b> Human-in-the-loop: AI runs the steps, I review and approve every output.</p>
@@ -180,6 +178,7 @@ layout: null
           <li>Secured API calls with token-based authentication to protect the integrity of data written to Amazon Redshift.</li>
           <li>Reworked data management frameworks on AWS S3 for high-volume workloads and optimized ETL pipelines, improving query efficiency by 40%.</li>
           <li>Automated ETL and routine data maintenance with Oracle PL/SQL and batch scripting, improving operational efficiency by 50%.</li>
+          <li>Documented SOPs for data management and delivered in Agile sprints.</li>
         </ul></div></div>
       </div>
     </article>
@@ -201,7 +200,7 @@ layout: null
 </section>
 
 <section id="certs" class="section reveal">
-  <div class="section-head"><span class="kicker">05 / Certifications</span><h2>Certifications</h2></div>
+  <div class="section-head"><span class="kicker">05 / Credentials</span><h2>Certifications and honors</h2></div>
   {% assign certs = site.data.certs | where_exp: "c", "c.hidden != true" %}
   <div class="cert-feature">
   {% for c in certs %}{% if c.tier == "featured" %}
@@ -222,6 +221,13 @@ layout: null
     {% for c in certs %}{% if c.tier == "other" %}<li>{{ c.name }} <span>· {{ c.issuer }}</span></li>{% endif %}{% endfor %}
     </ul>
   </details>
+  <h3 class="r-head honors-head">Honors</h3>
+  <div class="honors">
+    <div class="honor"><b>ACE Extra Mile Award</b><span>Accenture Celebrates Excellence, individual category</span></div>
+    <div class="honor"><b>Fast-track early promotion</b><span>Accenture, via the Techleap exam</span></div>
+    <div class="honor"><b>Kaggle Notebooks Expert</b><span>5 gold-medal Python data analysis notebooks</span></div>
+    <div class="honor"><b>Brown Bag Session 2024 Winner</b><span>Accenture monthly tech quiz</span></div>
+  </div>
 </section>
 
 <section id="reading" class="section reveal">
@@ -265,7 +271,7 @@ layout: null
 <section id="contact" class="section reveal">
   <div class="contact card spot">
     <h2>Let's talk data.</h2>
-    <p>Happy to connect about Snowflake, data quality and AI-assisted automation.</p>
+    <p>Happy to connect about business analytics, data quality and AI-assisted automation.</p>
     <div class="cta center">
       <a class="btn primary" href="mailto:{{ site.email }}">Email me</a>
       <button class="btn" id="copyMail" data-mail="{{ site.email }}">Copy email</button>

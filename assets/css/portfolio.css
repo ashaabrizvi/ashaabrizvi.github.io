@@ -308,3 +308,11 @@ main{max-width:960px;margin:0 auto;padding:0 20px}
   .pkt.go{animation-name:pkt-y}
   @keyframes pkt-y{0%{opacity:0;transform:translateY(-2px)}20%,80%{opacity:1}100%{opacity:0;transform:translateY(16px)}}
 }
+
+/* honors */
+.honors-head{margin-top:26px}
+.honors{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.honor{padding:16px 18px;border-radius:14px;border:1px solid var(--card-b);border-left:3px solid var(--a3);background:var(--card);transition:transform .2s}
+.honor:hover{transform:translateY(-3px)}
+.honor b{display:block;font-size:14px}
+.honor span{display:block;margin-top:4px;color:var(--muted);font-size:13px;line-height:1.45}
